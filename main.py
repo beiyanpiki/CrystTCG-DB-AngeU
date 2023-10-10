@@ -85,17 +85,22 @@ if __name__ == "__main__":
         for i, card_index in enumerate(product_cards_index):
             if card_index in ["omega", "sigma"]:
                 card_no = card_index
+                effect_index = card_index
             else:
                 card_no = card_index.split("-")[1]
                 if card_no[-1] == "P":
                     card_alternate_art = True
                     card_no = card_no[:-1]
+                    effect_index = f"{product_series_id}-{card_no}"
                 elif card_no[-1] == "F":
                     card_alternate_art = True
                     card_no = "omega" if flag else "sigma"
+                    effect_index = "omega" if flag else "sigma"
                     flag = not flag
                 else:
                     card_alternate_art = False
+                    effect_index = f"{product_series_id}-{card_no}"
+
             idx = -1
             for j, match in enumerate(product_cards_meta):
                 if match["collection_attr"]["card_index"] == card_no:
@@ -104,6 +109,7 @@ if __name__ == "__main__":
             if idx == -1:
                 print("Error")
                 exit(1)
+
             card_meta = product_cards_meta[idx]
 
             # print(card_meta, "\n\n")
@@ -193,7 +199,7 @@ if __name__ == "__main__":
             card_collection_attr = CollectionAttr(
                 product_series_id,
                 card_index,
-                card_no,
+                effect_index,
                 product_id,
                 product_name,
                 product_foil,
