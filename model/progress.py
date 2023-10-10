@@ -71,5 +71,5 @@ class ProgressAttr:
                 + [str(self.link.condition[2])]
             )
 
-            text += f"[Link-{self.link.condition}] {condition} {self.link.effect}\n"
+            text += f"[Link-{self.link.cost}] {condition} {self.link.effect}\n"
         return text
