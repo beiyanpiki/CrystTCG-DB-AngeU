@@ -4,7 +4,7 @@ from typing import Optional
 class CollectionAttr:
     series_id: str
     card_index: str
-
+    effect_index: str
     product_id: str
     product_name: str
 
@@ -19,6 +19,7 @@ class CollectionAttr:
         self,
         series_id: str,
         card_index: str,
+        effect_index: str,
         product_id: str,
         product_name: str,
         foil: bool,
@@ -28,6 +29,7 @@ class CollectionAttr:
     ) -> None:
         self.series_id = series_id
         self.card_index = card_index
+        self.effect_index = effect_index
         self.product_id = product_id
         self.product_name = product_name
         self.foil = foil
@@ -39,6 +41,7 @@ class CollectionAttr:
         return {
             "series_id": self.series_id,
             "card_index": self.card_index,
+            "effect_index": self.effect_index,
             "product_id": self.product_id,
             "product_name": self.product_name,
             "foil": self.foil,

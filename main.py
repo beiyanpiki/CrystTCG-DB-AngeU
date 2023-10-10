@@ -193,6 +193,7 @@ if __name__ == "__main__":
             card_collection_attr = CollectionAttr(
                 product_series_id,
                 card_index,
+                card_no,
                 product_id,
                 product_name,
                 product_foil,
