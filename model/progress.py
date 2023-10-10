@@ -17,11 +17,9 @@ class Link:
     def __json__(self):
         return {
             "cost": self.cost,
-            "condition": {
-                FrameType.Omega.value: self.condition[0],
-                FrameType.Sigma.value: self.condition[1],
-                FrameType.Any.value: self.condition[2],
-            },
+            "condition": [FrameType.Omega.value] * self.condition[0]
+            + [FrameType.Sigma.value] * self.condition[1]
+            + [FrameType.Any.value] * self.condition[2],
             "effect": self.effect,
         }
 

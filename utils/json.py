@@ -14,7 +14,7 @@ def custom_encoder(obj):
 
 def convert_to_json(obj, compress=False):
     return (
-        json.dumps(obj, default=custom_encoder, indent=4, ensure_ascii=False)
+        json.dumps(obj, default=custom_encoder, indent=4)
         if not compress
         else json.dumps(obj, default=custom_encoder, separators=(",", ":"))
     )
