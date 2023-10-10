@@ -2,7 +2,7 @@
   "sideab": {
     "id": "sideab",
     "name": "アンジュ・ユナイト side:α/side:β",
-    "release_date": "2023-09-01",
+    "release_date": "2023-09-01T09:00:00Z",
     "main_expansion": true,
     "series_id": "1",
     "url": "/cardlist01/large",
@@ -80,7 +80,7 @@
   "brilliant": {
     "id": "brilliant",
     "name": "アンジュ・ユナイト ブリリアントパック Vol.1",
-    "release_date": "2023-09-01",
+    "release_date": "2023-09-01T09:00:00Z",
     "main_expansion": true,
     "series_id": "1",
     "url": "/cardlist01/large",
