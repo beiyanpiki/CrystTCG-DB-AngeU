@@ -106,7 +106,7 @@ if __name__ == "__main__":
                 exit(1)
             card_meta = product_cards_meta[idx]
 
-            print(card_meta, "\n\n")
+            # print(card_meta, "\n\n")
 
             card_name = card_meta["name"]
             card_type = get_member_from_enum(
@@ -124,13 +124,6 @@ if __name__ == "__main__":
             )
             if card_type == CardType.Start:
                 card_start_attr = StartAttr(
-                    [
-                        Ability(
-                            get_member_from_enum(AbilityType, ability["type"]),
-                            ability["effect"],
-                        )
-                        for ability in card_meta["start_attr"]["abilities"]
-                    ],
                     get_member_from_enum(
                         FrameType, card_meta["start_attr"]["frame_attr"]
                     ),
@@ -155,13 +148,6 @@ if __name__ == "__main__":
                     )
                     if card_meta["progress_attr"]["ex"]
                     else None,
-                    [
-                        Ability(
-                            get_member_from_enum(AbilityType, ability["type"]),
-                            ability["effect"],
-                        )
-                        for ability in card_meta["progress_attr"]["abilities"]
-                    ],
                 )
             elif card_type == CardType.Action:
                 card_action_attr = ActionAttr(
@@ -172,6 +158,30 @@ if __name__ == "__main__":
                 card_frame_attr = get_member_from_enum(
                     FrameType, card_meta["frame_attr"]
                 )
+
+            if card_type == CardType.Start:
+                card_abilities = [
+                    Ability(
+                        get_member_from_enum(
+                            AbilityType, get_safe_value(ability["type"], "")
+                        ),
+                        ability["effect"],
+                    )
+                    for ability in card_meta["start_attr"]["abilities"]
+                ]
+            elif card_type == CardType.Progress:
+                card_abilities = [
+                    Ability(
+                        get_member_from_enum(
+                            AbilityType, get_safe_value(ability["type"], "")
+                        ),
+                        ability["effect"],
+                    )
+                    for ability in card_meta["progress_attr"]["abilities"]
+                ]
+
+            else:
+                card_abilities = []
 
             card_atk = card_meta["atk"] if card_meta["atk"] else None
             card_def = card_meta["def"] if card_meta["def"] else None
@@ -201,6 +211,7 @@ if __name__ == "__main__":
                 card_type,
                 card_level,
                 card_color,
+                card_abilities,
                 card_start_attr,
                 card_progress_attr,
                 card_action_attr,

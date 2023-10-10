@@ -454,7 +454,7 @@
       "name": "風が繋ぐカ",
       "type": "Action",
       "level": 0,
-      "color": "BLUE",
+      "color": "Blue",
       "text": "[条件] 青のプログレス2体以上(スタートカードは含まない)。\nチャージを1枚捨てる。そうした場合、2枚引く。",
       "start_attr": null,
       "progress_attr": null,
@@ -2380,7 +2380,7 @@
       "name": "日向美海",
       "type": "Start",
       "level": 0,
-      "color": "BLUE",
+      "color": "Blue",
       "text": "[常] スタートカード(にのカードはアタックできない)\n",
       "start_attr": {
         "abilities": [

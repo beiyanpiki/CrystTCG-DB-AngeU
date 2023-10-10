@@ -20,7 +20,7 @@ def convert_to_json(obj, compress=False):
     )
 
 
-def to_json(products: List[Product], path: str = "/home/miku/ange-img/output"):
+def to_json(products: List[Product], path: str = "./output"):
     fp = Path(path)
     with open(fp.joinpath("products.json"), "w") as f:
         f.write(

@@ -1,5 +1,5 @@
-from typing import Optional, List, Tuple
-from .constants import AbilityType, FrameType
+from typing import Optional, Tuple
+from .constants import FrameType
 
 
 class Link:
@@ -38,21 +38,8 @@ class Ex:
         return {"name": self.name, "effect": self.effect}
 
 
-class Ability:
-    type: AbilityType
-    effect: str
-
-    def __init__(self, type: AbilityType, effect: str) -> None:
-        self.type = type
-        self.effect = effect
-
-    def __json__(self):
-        return {"type": self.type.value, "effect": self.effect}
-
-
 class ProgressAttr:
     character: str
-    abilities: List[Ability]
     link: Optional[Link]
     ex: Optional[Ex]
 
@@ -61,31 +48,20 @@ class ProgressAttr:
         character: str,
         link: Optional[Link],
         ex: Optional[Ex],
-        abilities: List[Ability],
     ) -> None:
         self.character = character
         self.link = link
         self.ex = ex
-        self.abilities = abilities
 
     def __json__(self):
         return {
             "character": self.character,
-            "abilities": [ability.__json__() for ability in self.abilities],
             "link": self.link.__json__() if self.link else None,
             "ex": self.ex.__json__() if self.ex else None,
         }
 
     def __text__(self) -> str:
         text = ""
-        for ability in self.abilities:
-            if ability.type == AbilityType.Persistent:
-                type_text = "[常]"
-            elif ability.type == AbilityType.Automatic:
-                type_text = "[自]"
-            elif ability.type == AbilityType.Activated:
-                type_text = "[起]"
-            text += f"{type_text} {ability.effect}\n"
 
         if self.ex:
             text += f"[EX] {self.ex.name} {self.ex.effect}\n"
