@@ -2390,7 +2390,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "Blue",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -2398,7 +2398,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
@@ -2423,7 +2423,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "Black",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -2431,7 +2431,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
@@ -2456,7 +2456,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "Red",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -2464,7 +2464,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
@@ -2489,7 +2489,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "White",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -2497,7 +2497,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
@@ -2522,7 +2522,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "Green",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -2530,7 +2530,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
@@ -5211,7 +5211,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "Blue",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -5219,7 +5219,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
@@ -5244,7 +5244,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "Black",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -5252,7 +5252,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
@@ -5277,7 +5277,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "Red",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -5285,7 +5285,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
@@ -5310,7 +5310,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "White",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -5318,7 +5318,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
@@ -5343,7 +5343,7 @@
                 "type": "Start",
                 "level": 0,
                 "color": "Green",
-                "text": "[常] スタートカード(にのカードはアタックできない)\n",
+                "text": "[常] スタートカード(にのカードはアタックできない)\nForall",
                 "abilities": [
                     {
                         "type": "Persistent",
@@ -5351,7 +5351,7 @@
                     }
                 ],
                 "start_attr": {
-                    "frame_attr": "Forall"
+                    "frame": "Forall"
                 },
                 "progress_attr": null,
                 "action_attr": null,
