@@ -1,3 +1,4 @@
+import copy
 import json
 
 from model import Product, Ex
@@ -121,7 +122,7 @@ for card in brilliant["cards"]:
 
     for c in output[0].cards:
         if c.collection_attr.effect_index == card["collection_attr"]["effect_index"]:
-            outC = c
+            outC = copy.deepcopy(c) 
             outC.collection_attr = CollectionAttr(
                 "1",
                 card_index,
@@ -137,5 +138,5 @@ for card in brilliant["cards"]:
             )
             outP.cards.append(outC)
             break
-
+output.append(outP)
 to_json(output, path="./test")
