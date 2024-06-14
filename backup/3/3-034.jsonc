@@ -1,0 +1,69 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     { "words": "奇跡ープログレスカード1枚を捨てる。" },
+//     { "words": "EX実りのカあなたのデッキの上から3枚を公開し、その中からプロ" },
+//     { "words": "グレスカード1枚を手札に加え、残りを捨札に置く。" },
+//     { "words": "LINK7" },
+//     { "words": "ATK+7000。捨札のカード1枚を選び、デッキ" },
+//     { "words": "に戻しシャッフルしてもよい。" },
+//     { "words": "「女神様はね、みんなの幸せのために祈るんだよ」" },
+//     { "words": "豊の折り" },
+//     { "words": "ミシス" },
+//     { "words": "ATK" },
+//     { "words": "1100/1oo1" },
+//     { "words": "DEF" },
+//     { "words": "@KADOKAWA:f4samurai 3-034 Illust:Nardak" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801487132075809350
+// }
+{
+  "name": "豊穣の祈り",
+  "name_tran": "丰收的祈福",
+  "type": "Progress",
+  "level": 6,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "[奇跡] - プログレスカード1枚を捨てる。",
+      "effect_tran": "[奇迹] - 将1张进化者卡弃置。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ミシス",
+    "character_tran": "蜜西丝",
+    "link": {
+      "cost": 7,
+      "condition": ["Sigma", "Sigma", "Any", "Any"],
+      "effect": "ATK+7000。捨札のカード1枚を選び、デッキに戻しシャッフルしてもよい。",
+      "effect_tran": "ATK+7000。选择1张弃牌区的卡，可以将其回到卡组并洗切。"
+    },
+    "ex": {
+      "name": "実りの力",
+      "effect": "あなたのデッキの上から3枚を公開し、その中からプログレスカード1枚を手札に加え、残りを捨札に置く。",
+      "name_tran": "收获之力",
+      "effect_tran": "从你的卡组上方将3张公开，从那之中将1张进化者卡加入手牌，剩余放置到弃牌区。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-034",
+    "effect_index": "3-034",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "Nardak",
+    "promo": null
+  }
+}

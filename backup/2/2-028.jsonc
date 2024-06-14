@@ -1,0 +1,58 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "O0円のの" },
+//     { "words": "LINK" },
+//     { "words": "ATK+5000。捨札のレベル2以下のプログレス" },
+//     { "words": "カードを1枚選び、手札に加えてもよい。" },
+//     {
+//       "words": "ヒメ会長と行動を共にするヴァルキリー。空気を読むのがうまいらしい。"
+//     },
+//     { "words": "会長の護衛" },
+//     { "words": "シンシア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000/7ooo" },
+//     { "words": "CKADOKAWA4 samurai2-028ust:P流クイ" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750579101553131675
+// }
+{
+  "name": "会長の護衛",
+  "name_tran": "会长的护卫",
+  "type": "Progress",
+  "level": 3,
+  "color": "Red",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "シンシア",
+    "character_tran": "辛西娅",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Omega"],
+      "effect": "ATK+5000。捨札のレベル2以下のプログレスカードを1枚選び、手札に加えてもよい。",
+      "effect_tran": "ATK+5000。选择1张弃牌区的等级2以下的进化者卡，可以将其加入手牌。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "ヒメ会長と行動を共にするヴァルキリー。空気を読むのがうまいらしい。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-028",
+    "effect_index": "2-028",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "户流クイ",
+    "promo": null
+  }
+}

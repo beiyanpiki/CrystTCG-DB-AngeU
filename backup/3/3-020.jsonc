@@ -1,0 +1,69 @@
+// {
+//   "words_result": [
+//     { "words": "O0円の" },
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、あなたは1点のダメージを受ける。その後、あなたの受"
+//     },
+//     { "words": "けているダメージが3点以上の場合、1枚引く。" },
+//     { "words": "LINK5" },
+//     { "words": "2" },
+//     { "words": "ATK+7000" },
+//     {
+//       "words": "外の世界のプログレスたちも、少しずつ青蘭島の暮らしに馴染んでいる。"
+//     },
+//     { "words": "穏やかな時間" },
+//     { "words": "リュミエール" },
+//     { "words": "10000100001" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "OKADOKAWA-f4samurai3-020must有河サル" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801487050169666046
+// }
+
+{
+  "name": "穏やかな時間",
+  "name_tran": "平静的时间",
+  "type": "Progress",
+  "level": 4,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたは1点のダメージを受ける。その後、あなたの受けているダメージが3点以上の場合、1枚引く。",
+      "effect_tran": "登场时，你受到1点伤害。那之后，你的已受伤害是3点以上的场合，抽取1张。"
+    }
+  ],
+  "progress_attr": {
+    "character": "リュミエール",
+    "character_tran": "琉米艾儿",
+    "link": {
+      "cost": 5,
+      "condition": ["Sigma", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-020",
+    "effect_index": "3-020",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "有河サトル",
+    "promo": null
+  }
+}

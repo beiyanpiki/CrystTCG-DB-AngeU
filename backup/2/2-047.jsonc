@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "O" },
+//     { "words": "EX" },
+//     { "words": "パーストユニット プログレス1体を選び、ATK+3000。相手の捨札のカード1枚を選び、相手のデッキの一番上に置いてもよい。" },
+//     { "words": "" },
+//     { "words": "LINK8" },
+//     { "words": "2" },
+//     { "words": "ATK+10000。相手の捨札のカード1枚を選び、相手のデッキの一番上に置いてもよい。" },
+//     { "words": "" },
+//     { "words": "「……マスター。よろしくお願いします」" },
+//     { "words": "成長への扉" },
+//     { "words": "セニア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "120001200o2" },
+//     { "words": "CKADOKAWA:f4samurai 2-047 Illust:abec" }
+//   ],
+//   "words_result_num": 15,
+//   "log_id": 1750579226167744649
+// }
+{
+  "name": "成長への扉",
+  "name_tran": "迈向成长的一页",
+  "type": "Progress",
+  "level": 7,
+  "color": "White",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "セニア",
+    "character_tran": "赛妮娅",
+    "link": {
+      "cost": 8,
+      "condition": ["Sigma", "Sigma", "Sigma", "Any", "Any"],
+      "effect": "ATK+10000。相手の捨札のカード1枚を選び、相手のデッキの一番上に置いてもよい。",
+      "effect_tran": "ATK+10000。选择1张对手的弃牌区的卡，可以将其放置到对手的卡组的最上方。 "
+    },
+    "ex": {
+      "name": "パーストユニット",
+      "effect": "プログレス1体を選び、ATK+3000。相手の捨札のカード1枚を選び、相手のデッキの一番上に置いてもよい。",
+      "name_tran": "脉冲单元",
+      "effect_tran": "选择1只进化者，将其ATK+3000。选择1张对手的弃牌区的卡，可以将其放置到对手的卡组的最上方。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 12000,
+  "def": 12000,
+  "stk": 1,
+  "flavor_text": "「……マスター。よろしくお願いします」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-047",
+    "effect_index": "2-047",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "abec",
+    "promo": null
+  }
+}

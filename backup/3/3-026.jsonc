@@ -1,0 +1,69 @@
+// {
+//   "words_result": [
+//     { "words": "Oのス円の" },
+//     { "words": "自" },
+//     {
+//       "words": "このプログレスがリンクしたとき、リンクで公開された中に【名称（エ"
+//     },
+//     {
+//       "words": "ルエル)】のプログレスカードがある場合、そのうち1枚を手札に加えても"
+//     },
+//     { "words": "よい。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+4000。" },
+//     { "words": "「友だち」の力を借りる。それが彼女のエクシードだ。" },
+//     { "words": "笑顔の絆" },
+//     { "words": "エルエル" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "5000" },
+//     { "words": "OKADOKAWA4 samurai3026lst:Eろ" }
+//   ],
+//   "words_result_num": 15,
+//   "log_id": 1801487084495283329
+// }
+{
+  "name": "笑顔の絆",
+  "name_tran": "笑容之绊",
+  "type": "Progress",
+  "level": 2,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "このプログレスがリンクしたとき、リンクで公開された中に【名称(エルエル)】のプログレスカードがある場合、そのうち1枚を手札に加えてもよい。",
+      "effect_tran": "这个进化者链接时，因链接被公开之中有【名称（艾露艾露）】的进化者卡存在的场合，可以将其中1张加入手牌。"
+    }
+  ],
+  "progress_attr": {
+    "character": "エルエル",
+    "character_tran": "艾露艾露",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Omega"],
+      "effect": "ATK+4000。",
+      "effect_tran": "ATK+4000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-026",
+    "effect_index": "3-026",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "三嶋くろね",
+    "promo": null
+  }
+}

@@ -1,0 +1,63 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "自" },
+//     { "words": "あなたのほかのプログレスが登場するたび、そのプログレスのATK+" },
+//     { "words": "1000。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+5000。" },
+//     { "words": "それは技術の結晶、人類の希望。" },
+//     { "words": "人類の英雄" },
+//     { "words": "リーナ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8ooo" },
+//     { "words": "OKADOKAWA f4samurai3-041Ilst:駒都え-し" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487168595031329
+// }
+{
+  "name": "人類の英雄",
+  "name_tran": "人类的英雄",
+  "type": "Progress",
+  "level": 3,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "あなたのほかのプログレスが登場するたび、そのプログレスのATK+1000。",
+      "effect_tran": "每当你的其他的进化者登场，那只进化者的ATK+1000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "リーナ",
+    "character_tran": "莉娜",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-041",
+    "effect_index": "3-041",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "駒都えーじ",
+    "promo": null
+  }
+}

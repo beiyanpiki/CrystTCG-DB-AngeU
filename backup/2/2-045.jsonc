@@ -1,0 +1,56 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "元の" },
+//     { "words": "LINK" },
+//     { "words": "3" },
+//     { "words": "ATK+7000。" },
+//     { "words": "「海中ではさまざまな生物が観測されます。とても興味深いです」" },
+//     { "words": "マリンモードセニア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "9000" },
+//     { "words": "11000" },
+//     { "words": "OKADOKAWA-f4samurai 2-045 Illust:abec" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750579208399424872
+// }
+{
+  "name": "マリンモード",
+  "name_tran": "海洋模式",
+  "type": "Progress",
+  "level": 5,
+  "color": "White",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "セニア",
+    "character_tran": "赛妮娅",
+    "link": {
+      "cost": 7,
+      "condition": ["Any", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "「海中ではさまざまな生物が観測されます。とても興味深いです」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-045",
+    "effect_index": "2-045",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "abec",
+    "promo": null
+  }
+}

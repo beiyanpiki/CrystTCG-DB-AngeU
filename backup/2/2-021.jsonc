@@ -1,0 +1,63 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "EX" },
+//     { "words": "フレイ仏ブレイズ" },
+//     { "words": "1枚引く。相手のチャージゾーン1つを選ぶ。相" },
+//     { "words": "手はそのチャージゾーンのチャージを1枚捨てる。" },
+//     { "words": "LINK" },
+//     { "words": "ATK+8000" },
+//     { "words": "「魔女王の右腕と呼ばれるからには、中途半端は許されないわ」" },
+//     { "words": "世界を解き明かす右腕" },
+//     { "words": "ソフィーナ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "10000/100001" },
+//     { "words": "CKADOKAWA-f4 samurai2021ust神煌" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1750579052199419866
+// }
+{
+  "name": "世界を解き明かす右腕",
+  "name_tran": "解明世界的右臂",
+  "type": "Progress",
+  "level": 5,
+  "color": "Black",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "ソフィーナ",
+    "character_tran": "索菲娜",
+    "link": {
+      "cost": 6,
+      "condition": ["Sigma", "Sigma", "Any"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": {
+      "name": "フレイ仏ブレイズ",
+      "effect": "1枚引く。相手のチャージゾーン1つを選ぶ。相手はそのチャージゾーンのチャージを1枚捨てる。",
+      "name_tran": "情热燃烧",
+      "effect_tran": "抽取1张。选择对手的1个充能区。对手将1张那个充能区的充能弃置。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "「魔女王の右腕と呼ばれるからには、中途半端は許されないわ」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-021",
+    "effect_index": "2-021",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "狗神煌",
+    "promo": null
+  }
+}

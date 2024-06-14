@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "4" },
+//     { "words": "自" },
+//     { "words": "登場したとき、プログレス1体を選び、リンク+2。" },
+//     { "words": "LINK5" },
+//     { "words": "2" },
+//     { "words": "ATK+7000。" },
+//     { "words": "「ここは私の大事な場所。だから、守るの」" },
+//     { "words": "天使の素顔シャティー" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "9000/8000" },
+//     { "words": "OKADOKAWA:f4samura2030musきれっ2" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750579114211720332
+// }
+{
+  "name": "天使の素顔",
+  "name_tran": "天使的素颜",
+  "type": "Progress",
+  "level": 4,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、プログレス1体を選び、リンク+2。",
+      "effect_tran": "登场时，选择1只进化者，其LINK+2。"
+    }
+  ],
+  "progress_attr": {
+    "character": "シャティー",
+    "character_tran": "夏缇",
+    "link": {
+      "cost": 5,
+      "condition": ["Omega", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "「ここは私の大事な場所。だから、守るの」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-030",
+    "effect_index": "2-030",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ごきれっど",
+    "promo": null
+  }
+}

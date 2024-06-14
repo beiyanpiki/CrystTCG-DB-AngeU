@@ -1,0 +1,63 @@
+// {
+//   "words_result": [
+//     { "words": "4" },
+//     { "words": "いゃ" },
+//     { "words": "自" },
+//     { "words": "登場したとき、2枚引き、手札を2枚捨てる。" },
+//     { "words": "LINK5" },
+//     { "words": "2" },
+//     { "words": "ATK+7000。" },
+//     { "words": "「夏菜に見てもらうために、私はずっと絵を描いてきたんだよ」" },
+//     { "words": "ずっと見せたかったもの遠薙深雪" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000/9ooo" },
+//     { "words": "OKADOKAWA:f4samur200 3IMlust:の" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1750578949149045744
+// }
+{
+  "name": "ずっと見せたかったもの",
+  "name_tran": "一直想被你看到",
+  "type": "Progress",
+  "level": 4,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、2枚引き、手札を2枚捨てる。",
+      "effect_tran": "登场时，抽取2张，将2张手牌弃置。"
+    }
+  ],
+  "progress_attr": {
+    "character": "遠薙深雪",
+    "character_tran": "远薙深雪",
+    "link": {
+      "cost": 5,
+      "condition": ["Sigma", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "「夏菜に見てもらうために、私はずっと絵を描いてきたんだよ」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-006",
+    "effect_index": "2-006",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "むリリん",
+    "promo": null
+  }
+}

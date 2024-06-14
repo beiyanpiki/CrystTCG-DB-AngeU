@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     {
+//       "words": "奇跡プログレスカード1枚を捨てる（リンクが失敗したとき、コスト"
+//     },
+//     { "words": "を払ってもよい。そうした場合、リンクブーストを1回行う)。" },
+//     { "words": "LNK②ATK+8000。このターン、あなたのプログレス" },
+//     { "words": "のリンクが合計で3回以上成功している場合、2枚引く。" },
+//     { "words": "「えへへっ！きみを独り占めしちゃお一一っと」" },
+//     { "words": "ひとつだけの彩り" },
+//     { "words": "彩城天音" },
+//     { "words": "DEF" },
+//     { "words": "loooo11ooo" },
+//     { "words": "ATK" },
+//     { "words": "CKADOKAWA:f4samuraる010 Illust:ササキセウシ" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801486998213378788
+// }
+{
+  "name": "ひとりだけの彩り",
+  "name_tran": "唯一的色彩",
+  "type": "Progress",
+  "level": 6,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "[奇跡] - プログレスカード1枚を捨てる。",
+      "effect_tran": "[奇迹] - 将1张进化者卡弃置。"
+    }
+  ],
+  "progress_attr": {
+    "character": "彩城天音",
+    "character_tran": "彩城天音",
+    "link": {
+      "cost": 7,
+      "condition": ["Sigma", "Sigma", "Any", "Any"],
+      "effect": "ATK+8000。このターン、あなたのプログレスのリンクが合計で3回以上成功している場合、2枚引く。",
+      "effect_tran": "ATK+8000。这个回合，你的进化者的链接合计在3次以上已成功的场合，抽取2张。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-010",
+    "effect_index": "3-010",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

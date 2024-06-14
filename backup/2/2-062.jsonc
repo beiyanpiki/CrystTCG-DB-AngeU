@@ -1,0 +1,49 @@
+// {
+//   "words_result": [
+//     { "words": "0" },
+//     { "words": "常" },
+//     { "words": "スタートカードにのカードはアタックできない)" },
+//     { "words": "ダークネス・エンプレイス。それは赤き月の浮かぶ世界。" },
+//     { "words": "ミルドレッド" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000/5o00" },
+//     { "words": "OKADOKAWA-f4samurai 2-062" }
+//   ],
+//   "words_result_num": 9,
+//   "log_id": 1750579332989639954
+// }
+{
+  "name": "ミルドレッド",
+  "name_tran": "米尔特蕾德",
+  "type": "Start",
+  "level": 0,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "スタートカード(にのカードはアタックできない)",
+      "effect_tran": "起始卡（这张卡不能攻击）"
+    }
+  ],
+  "progress_attr": null,
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": null,
+  "flavor_text": "ダークネス・エンプレイス。それは赤き月の浮かぶ世界。",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-062",
+    "effect_index": "2-062",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": null,
+    "promo": null
+  }
+}

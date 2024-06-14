@@ -1,0 +1,72 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "似" },
+//     { "words": "常" },
+//     { "words": "このプログレスは正面のプログレスにはガードされない。" },
+//     { "words": "自" },
+//     { "words": "登場したとき、あなたは1点のダメージを受ける。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000。" },
+//     {
+//       "words": "(あずさの思い付きに巻き込まれがちだが、どうやらまんざらでもないようだ。"
+//     },
+//     { "words": "決死の逃走" },
+//     { "words": "ユノ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "9000/9ooo" },
+//     { "words": "OKADOKAWA:f4samurai3-018lst+九g" }
+//   ],
+//   "words_result_num": 15,
+//   "log_id": 1801487039482966571
+// }
+{
+  "name": "決死の逃走",
+  "name_tran": "决死的逃走",
+  "type": "Progress",
+  "level": 3,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "このプログレスは正面のプログレスにはガードされない。",
+      "effect_tran": "这个进化者不会被正面的进化者防御。"
+    },
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたは1点のダメージを受ける。",
+      "effect_tran": "登场时，你受到1点伤害。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ユノ",
+    "character_tran": "尤诺",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-018",
+    "effect_index": "3-018",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "一十九二",
+    "promo": null
+  }
+}

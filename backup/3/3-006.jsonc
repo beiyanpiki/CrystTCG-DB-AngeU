@@ -1,0 +1,61 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     { "words": "センターに登場したとき、1枚引く。" },
+//     { "words": "LINK5" },
+//     { "words": "ATK+6000。" },
+//     { "words": "「この島と学園の平和を守るのは、私たち風紀委員！」" },
+//     { "words": "蒼輝絢爛" },
+//     { "words": "東条遥" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000/8o00" },
+//     { "words": "CKADOKAWA4 samurai3-00mustサウシ" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1801486975189311630
+// }
+{
+  "name": "蒼輝絢爛",
+  "name_tran": "苍辉绚烂",
+  "type": "Progress",
+  "level": 4,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "センターに登場したとき、1枚引く。",
+      "effect_tran": "登场到中枢区时，抽取1张。"
+    }
+  ],
+  "progress_attr": {
+    "character": "東条遥",
+    "character_tran": "东条遥",
+    "link": {
+      "cost": 5,
+      "condition": ["Sigma", "Sigma", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-006",
+    "effect_index": "3-006",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

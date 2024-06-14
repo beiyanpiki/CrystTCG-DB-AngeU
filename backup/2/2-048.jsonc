@@ -1,0 +1,54 @@
+// {
+//   "words_result": [
+//     { "words": "0" },
+//     { "words": "条件" },
+//     {
+//       "words": "赤のプロルス体以上、白のプロクス体以上スタートカドは含まない)。"
+//     },
+//     {
+//       "words": "あなたのプログク体を選びレペルX以下のプログレスカード枚をサチ選んだ和ルスからコストを払わずにシフトする。Xは選んだプロクルスのレペル+1等し。"
+//     },
+//     {
+//       "words": ""
+//     },
+//     { "words": "" },
+//     { "words": "先へ。その先へ。" },
+//     { "words": "空を裂く光" },
+//     { "words": "CKADOKAWA-f4samurai 2-048 Illust:suzuki:k" }
+//   ],
+//   "words_result_num": 9,
+//   "log_id": 1750579231446561506
+// }
+{
+  "name": "空を裂く光",
+  "name_tran": "撕裂天空的光",
+  "type": "Action",
+  "level": 0,
+  "color": "White",
+  "text": "",
+  "abilities": [],
+  "progress_attr": null,
+  "action_attr": {
+    "condition": "赤のプロルス体以上、白のプロクス体以上(スタートカドは含まない)。",
+    "effect": "あなたのプログク体を選びレペルX以下のプログレスカード枚をサチ選んだ和ルスからコストを払わずにシフトする。Xは選んだプロクルスのレペル+1等し。",
+    "condition_tran": "红色的进化者1只以上，白色的进化者1只以上（不包含起始卡）。",
+    "effect_tran": "选择1只你的进化者，将1张等级X以下的进化者检索，从选择的进化者中不支付消费转换。X为已选择的进化者的等级+1相同的数值。"
+  },
+  "frame_attr": null,
+  "atk": null,
+  "def": null,
+  "stk": null,
+  "flavor_text": "先へ。その先へ。",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-048",
+    "effect_index": "2-048",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "suzuki*k",
+    "promo": null
+  }
+}

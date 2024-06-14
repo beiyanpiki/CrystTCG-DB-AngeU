@@ -1,0 +1,49 @@
+// {
+//   "words_result": [
+//     { "words": "シン" },
+//     { "words": "スタートカード（このカードはアタックできない）" },
+//     {
+//       "words": "背中に羽を持つ天使たち。その厳かな姿は、赤の世界の象徴といえる。"
+//     },
+//     { "words": "エルエル" },
+//     { "words": "DEF" },
+//     { "words": "500075ooo" },
+//     { "words": "CKADOKAWA-f4samurai 3-063" }
+//   ],
+//   "words_result_num": 7,
+//   "log_id": 1801487288455836276
+// }
+{
+  "name": "エルエル",
+  "name_tran": "艾露艾露",
+  "type": "Start",
+  "level": 0,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "スタートカード(にのカードはアタックできない)",
+      "effect_tran": "起始卡（这张卡不能攻击）"
+    }
+  ],
+  "progress_attr": null,
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": null,
+  "flavor_text": "",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-063",
+    "effect_index": "3-063",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": null,
+    "promo": null
+  }
+}

@@ -1,0 +1,55 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "ラン0れのの" },
+//     { "words": "LINK" },
+//     { "words": "3" },
+//     { "words": "ATK+7000。" },
+//     { "words": "彼女は森の声を聞き、エルフの森を導いてきた。" },
+//     { "words": "平和の幻奏者リュミエール" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "11o00/9ooo" },
+//     { "words": "CKADOKAWA4 samurai2020must有河サトル" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1750579045711568911
+// }
+{
+  "name": "平和の幻奏者",
+  "name_tran": "平和的幻奏者",
+  "type": "Progress",
+  "level": 5,
+  "color": "Black",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "リュミエール",
+    "character_tran": "琉米艾儿",
+    "link": {
+      "cost": 7,
+      "condition": ["Any", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "彼女は森の声を聞き、エルフの森を導いてきた。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-020",
+    "effect_index": "2-020",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "有河サトル",
+    "promo": null
+  }
+}

@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "EX" },
+//     { "words": "御影流・斬影 3枚引きその後手札から2枚をテッキの上に好き" },
+//     { "words": "な順番で戻す。" },
+//     { "words": "LINK8" },
+//     { "words": "2" },
+//     { "words": "ATK+1000デッキの上から4枚見て任意" },
+//     { "words": "の枚数のカードを捨札に置きその後テッキをシャッフルする。" },
+//     { "words": "「強くなりたい。この学園の誰にも負けないくらい……！」" },
+//     { "words": "紫電閃御影葵" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "11o00711000 2" },
+//     { "words": "OKADOKAWA-4 samurai2-011ust:なかじまゆか" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1750578980464712990
+// }
+{
+  "name": "紫電一閃",
+  "name_tran": "紫电一闪",
+  "type": "Progress",
+  "level": 7,
+  "color": "Blue",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "御影葵",
+    "character_tran": "御影葵",
+    "link": {
+      "cost": 8,
+      "condition": ["Sigma", "Sigma", "Sigma", "Any", "Any"],
+      "effect": "ATK+11000。デッキの上から4枚見て任意の枚数のカードを捨て札に置き、その後デッキをシャッフルする。",
+      "effect_tran": "ATK+11000。从卡组上方查看4张并将任意张数的卡放置到弃牌区，那之后洗切卡组。"
+    },
+    "ex": {
+      "name": "御影流・斬影",
+      "effect": "3枚引き、その後手札から2枚をデッキの上に好きな順番で戻す。",
+      "name_tran": "御影流·斩影",
+      "effect_tran": "抽取3张，那之后从手牌将2张以喜欢的顺序回到卡组上方。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 11000,
+  "stk": 2,
+  "flavor_text": "「強くなりたい。この学園の誰にも負けないくらい……！」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-011",
+    "effect_index": "2-011",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "なかじまゆか",
+    "promo": null
+  }
+}

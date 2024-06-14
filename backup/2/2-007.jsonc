@@ -1,0 +1,68 @@
+// {
+//   "words_result": [
+//     { "words": "41" },
+//     { "words": "のの" },
+//     { "words": "自" },
+//     {
+//       "words": "あなたが青のカードの効果によって1枚以上カードを引くか手札に加"
+//     },
+//     { "words": "えるたび、プログレス1体を選び、ATK+2000。" },
+//     { "words": "LINK6" },
+//     { "words": "2" },
+//     { "words": "ATK+7000。" },
+//     { "words": "「プログレスのことなら、なんでも私に聞いてくださいっ！」" },
+//     { "words": "果てなき蒼" },
+//     { "words": "久遠空" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000" },
+//     { "words": "9ooo" },
+//     { "words": "OKADOKAWA-f4samuro2007mustカトク" }
+//   ],
+//   "words_result_num": 16,
+//   "log_id": 1750578955452828264
+// }
+{
+  "name": "果てなき蒼",
+  "name_tran": "久远空",
+  "type": "Progress",
+  "level": 4,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "あなたが青のカードの効果によって1枚以上カードを引くか手札に加えるたび、プログレス1体を選び、ATK+2000。",
+      "effect_tran": "你每次因为蓝色的卡的效果将1张以上的卡抽取或加入手牌，选择1只进化者，其ATK+2000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "久遠空",
+    "character_tran": "久远空",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "「プログレスのことなら、なんでも私に聞いてくださいっ！」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-007",
+    "effect_index": "2-007",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "カントク",
+    "promo": null
+  }
+}

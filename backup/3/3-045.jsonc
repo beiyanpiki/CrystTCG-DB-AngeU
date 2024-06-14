@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "常" },
+//     {
+//       "words": "あなたの手札にあるプレーンのプログレスカードは、ガードの際、フ"
+//     },
+//     { "words": "レームカードと同様に扱うことができる。" },
+//     { "words": "LINK6" },
+//     { "words": "2" },
+//     { "words": "ATK+8000。" },
+//     { "words": "「昼も夜も、あなたの力になることをお約束します」" },
+//     { "words": "未来を識る者" },
+//     { "words": "ユーフィリア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "OKADOKAWA:f4samura3-045mostササキコウシ" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801487188999192690
+// }
+{
+  "name": "未来を識る者",
+  "name_tran": "认知未来者",
+  "type": "Progress",
+  "level": 5,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたの手札にあるプレーンのプログレスカードは、ガードの際、フレームカードと同様に扱うことができる。",
+      "effect_tran": "在你的手牌存在的无格的进化者卡，防御之际，能当作和框架卡同样的卡。"
+    }
+  ],
+  "progress_attr": {
+    "character": "蒼月紗夜",
+    "character_tran": "苍月纱夜",
+    "link": {
+      "cost": 6,
+      "condition": ["Sigma", "Any", "Any"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-045",
+    "effect_index": "3-045",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

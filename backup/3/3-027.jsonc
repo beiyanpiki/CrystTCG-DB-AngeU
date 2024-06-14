@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "O0円の" },
+//     { "words": "自" },
+//     {
+//       "words": "アタックしたとき、あなたのレベル3以下のプログレスすべてのATK+"
+//     },
+//     { "words": "1000。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+4000。" },
+//     { "words": "彼女の仕事は、会長の護衛。当然、戦闘力もかなりのものだ。" },
+//     { "words": "神威放出" },
+//     { "words": "シンシア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "500o" },
+//     { "words": "OKADOKAWA:f4samurai3-027musB中村熄" }
+//   ],
+//   "words_result_num": 15,
+//   "log_id": 1801487089067512028
+// }
+{
+  "name": "神威放出",
+  "name_tran": "神威放出",
+  "type": "Progress",
+  "level": 2,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "アタックしたとき、あなたのレベル3以下のプログレスすべてのATK+1000。",
+      "effect_tran": "攻击时，你的等级3以下的进化者全体的ATK+1000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "シンシア",
+    "character_tran": "辛西娅",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Any"],
+      "effect": "ATK+4000。",
+      "effect_tran": "ATK+4000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-027",
+    "effect_index": "3-027",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "中村煌",
+    "promo": null
+  }
+}

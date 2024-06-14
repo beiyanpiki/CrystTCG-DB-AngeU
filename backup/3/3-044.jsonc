@@ -1,0 +1,70 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "あなたの【名称（セニア）】のATK+2000" },
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、手札を1枚捨ててもよい。そうした場合、【名称（セニ"
+//     },
+//     { "words": "ア)】のプログレスカード1枚をサーチし、手札に加える。" },
+//     { "words": "LINK6" },
+//     { "words": "ATK+8000。" },
+//     { "words": "成長するアンドロイド。それは、一人の科学者によって生まれた。" },
+//     { "words": "天才科学者" },
+//     { "words": "Dr.ミハイル" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "CKADOKAWA4 Asamurai3.044must&花風花" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487183568009387
+// }
+{
+  "name": "天才科学者",
+  "name_tran": "天才科学家",
+  "type": "Progress",
+  "level": 5,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたの【名称(セニア)】のATK+2000。",
+      "effect_tran": "你的【名称（赛妮娅）】的ATK+2000。"
+    },
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、手札を1枚捨ててもよい。そうした場合、",
+      "effect_tran": "登场时，可以将1张手牌弃置。那个场合，将1张【名称（赛妮娅）】的进化者卡检索，将其加入手牌。"
+    }
+  ],
+  "progress_attr": {
+    "character": "Dr.ミハイル",
+    "character_tran": "Dr.米海尔",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Sigma", "Any"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-044",
+    "effect_index": "3-044",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "風花",
+    "promo": null
+  }
+}

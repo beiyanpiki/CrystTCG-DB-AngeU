@@ -1,0 +1,65 @@
+// {
+//   "words_result": [
+//     { "words": "Oの" },
+//     {
+//       "words": "あなたのスタートカード以外の【名称（遠薙深雪）】がいる場合、この"
+//     },
+//     { "words": "プログレスは「自アタックしたとき、チャージ+1。」を得る。" },
+//     { "words": "LINK6" },
+//     { "words": "ATK+6000。あなたの青のプログレスすべての" },
+//     { "words": "ATK+2000" },
+//     { "words": "姉と離れた世界で、彼女は力を求めていた。" },
+//     { "words": "連結刃" },
+//     { "words": "ナツナ・トオナギ" },
+//     { "words": "DEF" },
+//     { "words": "800079ooo" },
+//     { "words": "ATK" },
+//     { "words": "OKADOKAW.4 samurai05uust:こぶいち" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487252217828264
+// }
+{
+  "name": "連結刃",
+  "name_tran": "连结刃",
+  "type": "Progress",
+  "level": 5,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたのスタートカード以外の【名称(遠薙深雪)】がいる場合、このプログレスは「 [自] アタックしたとき、チャージ+1。」を得る。",
+      "effect_tran": "你的起始卡以外的【名称（远薙深雪）】存在的场合，这只进化者获得「 [自]：攻击时，充能+1。」。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ナツナ・トオナギ",
+    "character_tran": "夏菜·远薙",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Sigma", "Any"],
+      "effect": "ATK+6000。あなたの青のプログレスすべてのATK+2000。",
+      "effect_tran": "ATK+6000。你的蓝色的进化者全体的ATK+2000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-057",
+    "effect_index": "3-057",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "こぶいち",
+    "promo": null
+  }
+}

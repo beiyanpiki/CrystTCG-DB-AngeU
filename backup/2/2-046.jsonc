@@ -1,0 +1,71 @@
+// {
+//   "words_result": [
+//     { "words": "Gのの" },
+//     { "words": "あなたのレベル7以上のプログレスがいる場合、STK+1。" },
+//     { "words": "EX" },
+//     { "words": "リジェネレート・プログラム" },
+//     { "words": "レベル7以上のプログレスカード1枚をサーチし、手札に加える。" },
+//     { "words": "をサーチし、手札に加える。" },
+//     { "words": "LINK7" },
+//     { "words": "2" },
+//     { "words": "ATK+8000。" },
+//     { "words": "「おに一ちゃんのためなら、ゲンジツに出てきてもいいかな？」" },
+//     { "words": "次元超越" },
+//     { "words": "ヴェノム666" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "1o000 11000" },
+//     { "words": "OKADOKAWA-f4samurc2046musBサワ/キラ" }
+//   ],
+//   "words_result_num": 16,
+//   "log_id": 1750579218099452611
+// }
+{
+  "name": "次元超越",
+  "name_tran": "次元超越",
+  "type": "Progress",
+  "level": 6,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたのレベル7以上のプログレスがいる場合、STK+1",
+      "effect_tran": "你的等级7以上的进化者存在的场合，SKT+1。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ヴェノム666",
+    "character_tran": "贝诺姆666",
+    "link": {
+      "cost": 7,
+      "condition": ["Omega", "Omega", "Any", "Any"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": {
+      "name": "リジェネレート・プログラム",
+      "effect": "レベル7以上のプログレスカード1枚をサーチし、手札に加える。",
+      "name_tran": "重生·程序",
+      "effect_tran": "将1张等级7以上的进化者卡检索，将其加入手牌。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "「おに一ちゃんのためなら、ゲンジツに出てきてもいいかな？」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-046",
+    "effect_index": "2-046",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "サワノアキラ",
+    "promo": null
+  }
+}

@@ -1,0 +1,55 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "LINK" },
+//     { "words": "3" },
+//     { "words": "ATK+7000" },
+//     { "words": "「怖がらなくていいのよ。すぐに“終わる”から」" },
+//     { "words": "略奪の麗人" },
+//     { "words": "スレイ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "10000/1o000 1," },
+//     { "words": "CKADOKAWA:f4samurai2057 Iusts解島テツヒロ" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1750579296898660814
+// }
+{
+  "name": "略奪の麗人",
+  "name_tran": "掠夺的丽人",
+  "type": "Progress",
+  "level": 5,
+  "color": "Green",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "スレイ",
+    "character_tran": "斯雷伊",
+    "link": {
+      "cost": 7,
+      "condition": ["Any", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "「怖がらなくていいのよ。すぐに“終わる”から」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-057",
+    "effect_index": "2-057",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "鍋島テツヒロ",
+    "promo": null
+  }
+}

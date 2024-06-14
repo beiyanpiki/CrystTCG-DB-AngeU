@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "6" },
+//     { "words": "PROGR" },
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、あなたの捨札に∑のフレームカードがあるなら、そのう"
+//     },
+//     { "words": "登場したとき、あなたの捨札に∑のフレームカードがあるなら、そのうち1枚をゲームから除外する。" },
+//     { "words": "ATK+8000。" },
+//     { "words": "「この一撃で……決める！」" },
+//     { "words": "神威解放シンシア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "11o00710000" },
+//     { "words": "CKADOKAWA4 samurai2034must戸流ケイ" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750579140200451256
+// }
+{
+  "name": "神威解放",
+  "name_tran": "神威解放",
+  "type": "Progress",
+  "level": 6,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたの捨札にΣのフレームカードがあるなら、そのうち1枚をゲームから除外する。",
+      "effect_tran": "登场时，你的弃牌区有Σ的边界卡存在的话，其中1张从游戏除外。"
+    }
+  ],
+  "progress_attr": {
+    "character": "シンシア",
+    "character_tran": "辛西娅",
+    "link": {
+      "cost": 7,
+      "condition": ["Sigma", "Sigma", "Sigma", "Sigma"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "「この一撃で……決める！」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-034",
+    "effect_index": "2-034",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "戸流ケイ",
+    "promo": null
+  }
+}

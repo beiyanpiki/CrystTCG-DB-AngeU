@@ -1,0 +1,55 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "っ元" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+4000。プログレス1体を選び、ATK+" },
+//     { "words": "1000。これを3回繰り返す（それぞれ選ぶ先を変えてもよい）。" },
+//     { "words": "「最高のプレゼント、あげちゃおうかな」" },
+//     { "words": "聖夜の贈り物エルエル" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000/7o00" },
+//     { "words": "OKADOKAWA-f4 samurai2-029lst:三国くろね" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1750579107804212064
+// }
+{
+  "name": "聖夜の贈り物",
+  "name_tran": "圣诞夜的礼物",
+  "type": "Progress",
+  "level": 3,
+  "color": "Red",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "エルエル",
+    "character_tran": "艾露艾露",
+    "link": {
+      "cost": 4,
+      "condition": ["Sigma", "Sigma"],
+      "effect": "ATK+4000。プログレス1体を選び、ATK+1000。これを3回繰り返す(それぞれ選ぶ先を変えてもよい)。",
+      "effect_tran": "ATK+5000。选择1只进化者，其ATK+1000。将这个操作重复3次（可以将各自的选择变更）。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "「最高のプレゼント、あげちゃおうかな」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-029",
+    "effect_index": "2-029",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "三嶋くろね",
+    "promo": null
+  }
+}

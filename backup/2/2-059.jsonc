@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "セッわ" },
+//     { "words": "E" },
+//     { "words": "E" },
+//     { "words": "EX" },
+//     { "words": "アヴェンジェリア" },
+//     { "words": "" },
+//     { "words": "対戦相手に1点のダメージを与える。そのダメージがリジェクトされたら、チャージ+1。" },
+//     { "words": "LINK8" },
+//     { "words": "2" },
+//     { "words": "ATK+13000。チャージ+1。その後、あなた" },
+//     { "words": "ATK+13000。チャージ+1。その後、あなたのチャージゾーンのチャージを自由に動かしてよい。" },
+//     { "words": "「しょうがないな一。じゃあ、サクッと終わらせようか」" },
+//     { "words": "強猛なる籠手" },
+//     { "words": "ナイア" },
+//     { "words": "DEF" },
+//     { "words": "12000/12o0o2" },
+//     { "words": "ATK" },
+//     { "words": "OKADOKAWA4 samurai2059mustトモセシュンサク" }
+//   ],
+//   "words_result_num": 18,
+//   "log_id": 1750579314066327218
+// }
+{
+  "name": "強猛なる籠手",
+  "name_tran": "强壮的护手铠",
+  "type": "Progress",
+  "level": 7,
+  "color": "Green",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "ナイア",
+    "character_tran": "奈亚",
+    "link": {
+      "cost": 8,
+      "condition": ["Omega", "Omega", "Omega", "Any", "Any"],
+      "effect": "ATK+13000。チャージ+1。その後、あなたのチャージゾーンのチャージを自由に動かしてよい。",
+      "effect_tran": "ATK+13000。充能+1。那之后，可以将你的充能区的充能自由移动。"
+    },
+    "ex": {
+      "name": "アヴェンジェリア",
+      "effect": "対戦相手に1点のダメージを与える。そのダメージがリジェクトされたら、チャージ+1。",
+      "name_tran": "复仇杰利亚",
+      "effect_tran": "给予对战对手1点伤害。那个伤害被拒绝访问的话，充能+1。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 12000,
+  "def": 12000,
+  "stk": 2,
+  "flavor_text": "「しょうがないな一。じゃあ、サクッと終わらせようか」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-059",
+    "effect_index": "2-059",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "トモセシュンサク",
+    "promo": null
+  }
+}

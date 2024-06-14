@@ -1,0 +1,66 @@
+// {
+//   "words_result": [
+//     { "words": "1O00円の" },
+//     { "words": "自" },
+//     {
+//       "words": "奇跡一プログレスカード1枚を捨てる（リンクが失敗したとき、コスト"
+//     },
+//     { "words": "を払ってもよい。そうした場合、リンクブーストを1回行う)。" },
+//     { "words": "LINKO" },
+//     { "words": "ATK+7000。プログレス1体を選び、リンク+" },
+//     { "words": "2。" },
+//     { "words": "世界は不完全だ。だからこそ、描きたいものがたくさんある。" },
+//     { "words": "具現する力" },
+//     { "words": "遠薙深雪" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "loooo" },
+//     { "words": "OKADOKAWA:f4samuraる009 Mlusts G" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801486991954499826
+// }
+{
+  "name": "具現する力",
+  "name_tran": "具现化的力量",
+  "type": "Progress",
+  "level": 5,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "[奇跡] - プログレスカード1枚を捨てる(リンクが失敗したとき、コストを払ってもよい。そうした場合、リンクブーストを1回行う)。",
+      "effect_tran": "[奇迹] - 将1张进化者卡弃置。"
+    }
+  ],
+  "progress_attr": {
+    "character": "遠薙深雪",
+    "character_tran": "远薙深雪",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Sigma", "Any"],
+      "effect": "ATK+7000。プログレス1体を選び、リンク+2。",
+      "effect_tran": "ATK+7000。选择1只进化者，其LINK+2。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-009",
+    "effect_index": "3-009",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "むリリん",
+    "promo": null
+  }
+}

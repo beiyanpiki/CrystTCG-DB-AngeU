@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "のり" },
+//     { "words": "自" },
+//     { "words": "センターに登場したとき、3枚引き、手札を3枚捨てる。" },
+//     { "words": "LNK8@②ATK+10001枚引く。" },
+//     { "words": "「もしかして、私を探しに来てくれたのかな？」" },
+//     { "words": "風が導く可能性" },
+//     { "words": "日向美海" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "11ooo" },
+//     { "words": "12000" },
+//     { "words": "CKADOKAWAf4 samurai3-012ust:カントク" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801487007357788912
+// }
+{
+  "name": "風が導く可能性",
+  "name_tran": "世界第一的后辈？",
+  "type": "Progress",
+  "level": 7,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "センターに登場したとき、3枚引き、手札を3枚捨てる。",
+      "effect_tran": "登场到中枢区时，抽取3张，将3张手牌弃置。"
+    }
+  ],
+  "progress_attr": {
+    "character": "日向美海",
+    "character_tran": "日向美海",
+    "link": {
+      "cost": 8,
+      "condition": ["Omega", "Sigma", "Sigma", "Any", "Any"],
+      "effect": "ATK+10000。1枚引く。",
+      "effect_tran": "ATK+10000。抽取1张。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 12000,
+  "stk": 2,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-012",
+    "effect_index": "3-012",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "カントク",
+    "promo": null
+  }
+}

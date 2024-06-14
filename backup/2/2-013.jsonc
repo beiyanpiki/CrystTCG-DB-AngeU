@@ -1,0 +1,58 @@
+// {
+//   "words_result": [
+//     { "words": "DEF11000以上のプログレスにはガードされない。" },
+//     { "words": "LNK3 3O1 ATK+6000。" },
+//     { "words": "「しょうがないわね、今日くらい、私が一緒にいてあげるわよ」" },
+//     { "words": "聖夜の黒魔女ソフィーナ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "6000/4ooo" },
+//     { "words": "CKADOKAWA4 samurai2-013lst:狗神煌" }
+//   ],
+//   "words_result_num": 8,
+//   "log_id": 1750578993116582752
+// }
+{
+  "name": "聖夜の黒魔女",
+  "name_tran": "圣诞夜的黑魔女",
+  "type": "Progress",
+  "level": 1,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "DEF11000以上のプログレスにはガードされない。",
+      "effect_tran": "不被DEF11000以上的进化者防御。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ソフィーナ",
+    "character_tran": "索菲娜",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 6000,
+  "def": 4000,
+  "stk": 1,
+  "flavor_text": "「しょうがないわね、今日くらい、私が一緒にいてあげるわよ」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-013",
+    "effect_index": "2-013",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "狗神煌",
+    "promo": null
+  }
+}

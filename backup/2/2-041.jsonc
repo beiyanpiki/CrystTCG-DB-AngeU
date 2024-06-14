@@ -1,0 +1,63 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     {
+//       "words": "このプログレスが【名称（セニア）】にシフトする際、必要なコストは2"
+//     },
+//     { "words": "このプログレスが【名称（セニア）】にシフトする際、必要なコストは2減る。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000" },
+//     { "words": "「セニアに近づく虫には容赦しないでございます」" },
+//     { "words": "ラヴァーズモードカレン" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7o0o 7000" },
+//     { "words": "CKADOKAWA-4 4samura204must8ろお" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1750579182528059556
+// }
+{
+  "name": "ラヴァーズモード",
+  "name_tran": "深情摇滚模式",
+  "type": "Progress",
+  "level": 3,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "このプログレスが【名称（セニア）】にシフトする際、必要なコストは2減る。",
+      "effect_tran": "这个进化者转换为【名称（赛妮娅）】之际，所需消费减少2。"
+    }
+  ],
+  "progress_attr": {
+    "character": "カレン",
+    "character_tran": "卡莲",
+    "link": {
+      "cost": 4,
+      "condition": ["Sigma", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "「セニアに近づく虫には容赦しないでございます」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-041",
+    "effect_index": "2-041",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "るろお",
+    "promo": null
+  }
+}

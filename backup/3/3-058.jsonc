@@ -1,0 +1,65 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     {
+//       "words": "このプログレスが正面のプログレスのガードに成功したとき、チャージ"
+//     },
+//     { "words": "ゾーン1つを選び、チャージ+1。" },
+//     { "words": "LINK7" },
+//     { "words": "ATK+7000。チャージゾーン1つを選び、チャー" },
+//     { "words": "ジ+1。" },
+//     { "words": "「わたしが盾になるから一。前にいるわたしを信じてよ」" },
+//     { "words": "鉄壁の守護者" },
+//     { "words": "ルルーナ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "1ooo0/11ooo" },
+//     { "words": "OKADOKAWA4 samura3058must:結城リカ" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487257386932623
+// }
+{
+  "name": "鉄壁の守護者",
+  "name_tran": "铁壁的守护者",
+  "type": "Progress",
+  "level": 6,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "このプログレスが正面のプログレスのガードに成功したとき、チャージゾーン1つを選び、チャージ+1。",
+      "effect_tran": "这只进化者对正面的进化者的防御成功时，选择1个充能区，其充能+1。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ルルーナ",
+    "character_tran": "露露娜",
+    "link": {
+      "cost": 7,
+      "condition": ["Omega", "Omega", "Any", "Any"],
+      "effect": "ATK+7000。チャージゾーン1つを選び、チャージ+1。",
+      "effect_tran": "ATK+7000。选择1个充能区，其充能+1。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-058",
+    "effect_index": "3-058",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "結城リカ",
+    "promo": null
+  }
+}

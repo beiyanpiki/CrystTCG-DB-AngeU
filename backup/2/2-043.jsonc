@@ -1,0 +1,68 @@
+// {
+//   "words_result": [
+//     { "words": "4" },
+//     { "words": "自" },
+//     {
+//       "words": "このプログレスがガードに失敗したとき、このプログレスをフォール状"
+//     },
+//     { "words": "このプログレスがガードに失敗したとき、このプログレスをフォール状態にする。" },
+//     { "words": "LINK6" },
+//     { "words": "2" },
+//     { "words": "ATK+6000" },
+//     {
+//       "words": "「わたくしの空間歪曲システムは空間そのものを歪め粉砕いたします。体験なさいますか？」"
+//     },
+//     { "words": "夜を駆ける" },
+//     { "words": "カレン" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "10000" },
+//     { "words": "CKADOKAWA-f4 samurai2043Iustるろお" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1750579195472552094
+// }
+{
+  "name": "夜を駆ける",
+  "name_tran": "向夜而奔",
+  "type": "Progress",
+  "level": 4,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "このプログレスがガードに失敗したとき、このプログレスをフォール状態にする。",
+      "effect_tran": "这个进化者在防御中失败时，将这个进化者转变为沉睡状态。"
+    }
+  ],
+  "progress_attr": {
+    "character": "カレン",
+    "character_tran": "卡莲",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Any", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "「わたくしの空間歪曲システムは空間そのものを歪め粉砕いたします。体験なさいますか？」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-043",
+    "effect_index": "2-043",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "るろお",
+    "promo": null
+  }
+}

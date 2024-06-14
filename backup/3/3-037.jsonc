@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "起" },
+//     { "words": "このプログレスをフォールする：このプログレスのレベル+1。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+6000。" },
+//     { "words": "「こういう服は、ちょっとドキドキするの」" },
+//     { "words": "水着の純真" },
+//     { "words": "ラウラ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "5000" },
+//     { "words": "OKADOKAWA:f4samura3037musパt" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801487147106267264
+// }
+{
+  "name": "水着の純真",
+  "name_tran": "泳装的纯真",
+  "type": "Progress",
+  "level": 1,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "このプログレスをフォールする:このプログレスのレベル+1。",
+      "effect_tran": "将这个进化者沉睡：这个进化者的等级+1。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ラウラ",
+    "character_tran": "劳拉",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-037",
+    "effect_index": "3-037",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "パセリ",
+    "promo": null
+  }
+}

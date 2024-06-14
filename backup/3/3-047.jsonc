@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "すべてのプログレスのSTKの最大値は2になる。" },
+//     {
+//       "words": "EX断罪の鉄槌相手は捨札のフレームカード1枚を選び、ゲームから除外する。"
+//     },
+//     { "words": "LNK2ATK+8000相手は捨札のフレームカード1枚を選び、" },
+//     { "words": "ゲームから除外する。" },
+//     { "words": "「ジャッジメンティス、リーナ=リナーシタ！いきます！」" },
+//     { "words": "ジャッジメンティス" },
+//     { "words": "リーナ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "1oooo" },
+//     { "words": "11000" },
+//     { "words": "CKADOKAWA-f4samurai3047Iust:駒都え" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801487199336256468
+// }
+{
+  "name": "ジャッジメンティス",
+  "name_tran": "风纪救援队",
+  "type": "Progress",
+  "level": 6,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "すべてのプログレスのSTKの最大値は2になる。",
+      "effect_tran": "全部的进化者的STK的最大值变为2。"
+    }
+  ],
+  "progress_attr": {
+    "character": "リーナ",
+    "character_tran": "莉娜",
+    "link": {
+      "cost": 7,
+      "condition": ["Omega", "Sigma", "Any", "Any"],
+      "effect": "ATK+8000。相手は捨札のフレームカード1枚を選び、ゲームから除外する。",
+      "effect_tran": "ATK+8000。对手选择1张弃牌区的边界卡，将其从游戏除外。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-047",
+    "effect_index": "3-047",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "駒都えーじ",
+    "promo": null
+  }
+}

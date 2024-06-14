@@ -1,0 +1,28 @@
+{
+  "name": "omega",
+  "name_tran": "omega",
+  "type": "Frame",
+  "level": 0,
+  "color": null,
+  "text": "Omega",
+  "abilities": [],
+  "progress_attr": null,
+  "action_attr": null,
+  "frame_attr": "Omega",
+  "atk": null,
+  "def": null,
+  "stk": null,
+  "flavor_text": null,
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "omega",
+    "effect_index": "omega",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": null,
+    "promo": null
+  }
+}

@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     {
+//       "words": "あなたのプログレスすべてに「自このプログレスがリンクしたとき、リ"
+//     },
+//     {
+//       "words": "ンクで公開された中にプレーンのプログレスカードが2枚以上ある場合、"
+//     },
+//     { "words": "リンクブーストを1回行ってもよい。」を与える。" },
+//     { "words": "LINK6" },
+//     { "words": "2" },
+//     { "words": "ATK+7000" },
+//     { "words": "「私もいつか、誰かの輝きになれるのかな」" },
+//     { "words": "輝ける月" },
+//     { "words": "蒼月紗夜" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "1o000/1o0000" },
+//     { "words": "OKADOKAWA:4 samurai3-008mus涼香" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801486986048409833
+// }
+{
+  "name": "輝ける月",
+  "name_tran": "光辉之月",
+  "type": "Progress",
+  "level": 5,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたのプログレスすべてに「【自】このプログレスがリンクしたとき、リンクで公開された中にプレーンのプログレスカードが2枚以上ある場合、リンクブーストを1回行ってもよい。」を与える。",
+      "effect_tran": "给予你的进化者全体「【自】：这个进化者链接时，在因链接被公开之中有2张以上无格的进化者卡存在的场合，可以进行1次链接强化。」。"
+    }
+  ],
+  "progress_attr": {
+    "character": "蒼月紗夜",
+    "character_tran": "苍月纱夜",
+    "link": {
+      "cost": 6,
+      "condition": ["Sigma", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-008",
+    "effect_index": "3-008",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "涼香",
+    "promo": null
+  }
+}

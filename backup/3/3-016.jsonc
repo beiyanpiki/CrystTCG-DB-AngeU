@@ -1,0 +1,54 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000。" },
+//     { "words": "「愛と勇気の魔法少女アビーだよ！みんなよろしく！」" },
+//     { "words": "流星の魔女" },
+//     { "words": "アビー" },
+//     { "words": "90007ooo" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "OKADOKAWA-14samurai 3-016 Illust:LSU" }
+//   ],
+//   "words_result_num": 10,
+//   "log_id": 1801487028458234795
+// }
+{
+  "name": "流星の魔女",
+  "name_tran": "流星的魔女",
+  "type": "Progress",
+  "level": 3,
+  "color": "Black",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "アビー",
+    "character_tran": "艾比",
+    "link": {
+      "cost": 4,
+      "condition": ["Sigma", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-016",
+    "effect_index": "3-016",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "しらび",
+    "promo": null
+  }
+}

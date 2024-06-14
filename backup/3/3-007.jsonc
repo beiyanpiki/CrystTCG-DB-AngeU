@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     { "words": "登場したとき、あなたの手札をすべて捨て、捨てた数と同じ枚数引" },
+//     { "words": "く。" },
+//     { "words": "LINK5" },
+//     { "words": "ATK+6000" },
+//     { "words": "「ふっふーんそんなに新田が気になりますか～？」" },
+//     { "words": "新田の青春" },
+//     { "words": "新田由美" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "1000o" },
+//     { "words": "OKADOKAWA4 Asamurai3-00musは" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801486979884256128
+// }
+{
+  "name": "新田の青春",
+  "name_tran": "新田的青春",
+  "type": "Progress",
+  "level": 4,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたの手札をすべて捨て、捨てた枚と同じ枚数引く。",
+      "effect_tran": "登场时，将你的手牌全部弃置，抽取等同于弃置张数。"
+    }
+  ],
+  "progress_attr": {
+    "character": "新田由美",
+    "character_tran": "新田由美",
+    "link": {
+      "cost": 5,
+      "condition": ["Omega", "Omega", "Omega"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-007",
+    "effect_index": "3-007",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "くらは",
+    "promo": null
+  }
+}

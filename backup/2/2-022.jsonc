@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "常" },
+//     { "words": "あなたのプログレス3体が黒の場合、STK+1(スタートカードは含ま" },
+//     { "words": "ない)。" },
+//     { "words": "LINK7" },
+//     { "words": "3" },
+//     { "words": "ATK+8000相手は手札を1枚捨てる。" },
+//     { "words": "ロザリーは幻影を操る。世界すら欺くほどの。" },
+//     { "words": "華麗なる幻惑ロザリー" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "11o0/1oo0o0" },
+//     { "words": "CKADOKAWA-4 samurai2022ust:5び" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750579058637788980
+// }
+{
+  "name": "華麗なる幻惑",
+  "name_tran": "华丽而幻惑",
+  "type": "Progress",
+  "level": 6,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたのプログレス3体が黒の場合、STK+1(スタートカードは含まない)。",
+      "effect_tran": "你的3只进化者是黑色的场合，SKT+1（不包含起始卡）。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ロザリー",
+    "character_tran": "罗莎莉",
+    "link": {
+      "cost": 7,
+      "condition": ["Sigma", "Any", "Any", "Any"],
+      "effect": "ATK+8000。相手は手札を1枚捨てる。",
+      "effect_tran": "ATK+8000。对手将1张手牌弃置。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "ロザリーは幻影を操る。世界すら欺くほどの。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-022",
+    "effect_index": "2-022",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "しらび",
+    "promo": null
+  }
+}

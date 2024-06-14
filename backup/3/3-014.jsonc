@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "1O00mの" },
+//     { "words": "常" },
+//     { "words": "このプログレスはガードできない。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+6000。" },
+//     { "words": "青蘭島は、意外にも吸血鬼には過ごしやすい環境らしい。" },
+//     { "words": "たった一つの味" },
+//     { "words": "アルマリア" },
+//     { "words": "8000/4ooo" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "CKADOKAWA4 Isamurai3-014ust:ぼよよんろっく" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801487018275515692
+// }
+{
+  "name": "たった一つの味",
+  "name_tran": "唯一的味道",
+  "type": "Progress",
+  "level": 2,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "このプログレスはガードできない。",
+      "effect_tran": "这个进化者不能防御。"
+    }
+  ],
+  "progress_attr": {
+    "character": "アルマリア",
+    "character_tran": "阿尔玛莉亚",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Omega"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 4000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-014",
+    "effect_index": "3-014",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ぽよよん♥ろっく",
+    "promo": null
+  }
+}

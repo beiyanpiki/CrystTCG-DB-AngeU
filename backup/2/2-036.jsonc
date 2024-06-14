@@ -1,0 +1,50 @@
+// {
+//   "words_result": [
+//     { "words": "0" },
+//     { "words": "条件" },
+//     { "words": "赤のプログレス体以上、黒のプログレス1体以上（スタートカードは含まない)。" },
+//     { "words": "は含まない。" },
+//     {
+//       "words": "チャージを2枚捨てる。そうした場合あなたのプログルレスすペてのATK+2000、STK+1。"
+//     },
+//     { "words": "" },
+//     { "words": "花が咲き、生命が生まれる。" },
+//     { "words": "春を呼ぶ光" },
+//     { "words": "CKADOKAWA:f4samurai 2-036 Illust:Meet" }
+//   ],
+//   "words_result_num": 9,
+//   "log_id": 1750579153101794074
+// }
+{
+  "name": "春を呼ぶ光",
+  "name_tran": "呼来春天的光",
+  "type": "Action",
+  "level": 0,
+  "color": "Red",
+  "text": "",
+  "abilities": [],
+  "progress_attr": null,
+  "action_attr": {
+    "condition": "赤のプログレス1体以上、黒のプログレス1体以上(スタートカードは含まない)。",
+    "effect": "チャージを2枚捨てる。そうした場合、あなたのプログレスすべてのATK+2000、STK+1。",
+    "condition_tran": "红色进化者1只以上，黑色进化者1只以上。",
+    "effect_tran": "将2张充能弃置。那个场合，你的全部的进化者的ATK+2000，SKT+1。"
+  },
+  "frame_attr": null,
+  "atk": null,
+  "def": null,
+  "stk": null,
+  "flavor_text": "花が咲き、生命が生まれる。",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-036",
+    "effect_index": "2-036",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "Meet",
+    "promo": null
+  }
+}

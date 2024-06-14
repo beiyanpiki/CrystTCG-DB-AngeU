@@ -1,0 +1,61 @@
+// {
+//   "words_result": [
+//     { "words": "常" },
+//     { "words": "あなたのレベル3以下のプログレスのATK+1000/DEF+1000(ス" },
+//     { "words": "タートカードは含まない)。" },
+//     { "words": "LINK6" },
+//     { "words": "ATK+7000。" },
+//     { "words": "「生徒会は5つの世界の架け橋。君も手伝ってくれるよね？」" },
+//     { "words": "紡がれる糸" },
+//     { "words": "ヒメガミノミコト" },
+//     { "words": "DEF" },
+//     { "words": "1o000/100001" },
+//     { "words": "OKADOKAWA.4 samurai3-03ustがリ" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1801487125619338634
+// }
+{
+  "name": "紡がれる糸",
+  "name_tran": "被纺织的线",
+  "type": "Progress",
+  "level": 5,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたのレベル3以下のプログレスのATK+1000/DEF+1000(スタートカードは含まない)。",
+      "effect_tran": "你的等级3以下的进化者的ATK+1000/DEF+1000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ヒメガミノミコト",
+    "character_tran": "姬神御命",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Omega", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-033",
+    "effect_index": "3-033",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "がリ",
+    "promo": null
+  }
+}

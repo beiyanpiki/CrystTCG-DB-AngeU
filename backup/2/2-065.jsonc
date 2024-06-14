@@ -1,0 +1,50 @@
+// {
+//   "words_result": [
+//     { "words": "0" },
+//     { "words": "为" },
+//     { "words": "スタートカードこのカードはアタックできない" },
+//     { "words": "グリューネシルト。それは統合軍が統治する軍事世界。" },
+//     { "words": "ナイア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "5000" },
+//     { "words": "OKADOKAWA-f4samurai 2-065" }
+//   ],
+//   "words_result_num": 10,
+//   "log_id": 1750579350652230692
+// }
+{
+  "name": "ナイア",
+  "name_tran": "奈亚",
+  "type": "Start",
+  "level": 0,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "スタートカード(にのカードはアタックできない)",
+      "effect_tran": "起始卡（这张卡不能攻击）"
+    }
+  ],
+  "progress_attr": null,
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": null,
+  "flavor_text": "グリューネシルト。それは統合軍が統治する軍事世界。",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-065",
+    "effect_index": "2-065",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": null,
+    "promo": null
+  }
+}

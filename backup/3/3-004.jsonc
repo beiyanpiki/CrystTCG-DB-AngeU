@@ -1,0 +1,60 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "9円の" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+5000。あなたのデッキの上から3枚を公開" },
+//     {
+//       "words": "し、その中から奇跡を持つプログレスカード1枚を手札に加え、残りを捨札"
+//     },
+//     { "words": "に置く。" },
+//     { "words": "いつか、帰るべき場所がある。" },
+//     { "words": "大切なきみへ" },
+//     { "words": "彩城天音" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000" },
+//     { "words": "8000" },
+//     { "words": "OKADOKAWA4 Isamurai 3:004 Illust:サ" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801486960295926693
+// }
+{
+  "name": "大切なきみへ",
+  "name_tran": "献给亲爱的你",
+  "type": "Progress",
+  "level": 3,
+  "color": "Blue",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "彩城天音",
+    "character_tran": "彩城天音",
+    "link": {
+      "cost": 4,
+      "condition": ["Sigma", "Any"],
+      "effect": "ATK+5000。あなたのデッキの上から3枚を公開し、その中から奇跡を持つプログレスカード1枚を手札に加え、残りを捨札に置く。",
+      "effect_tran": "ATK+5000。从你的卡组上方将3张公开，从那之中将1张持有奇迹的进化者卡加入手牌，剩余放置到弃牌区。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-004",
+    "effect_index": "3-004",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

@@ -1,0 +1,65 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "めの" },
+//     { "words": "EX" },
+//     { "words": "うきうきパカンス" },
+//     { "words": "捨札のレベル4以下のプログレスカードを1枚選び、手札に加える。" },
+//     { "words": "" },
+//     { "words": "LINK6" },
+//     { "words": "1" },
+//     { "words": "ATK+8000。デッキの上から3枚見て1枚を手札に加え、残りを捨札に置く。" },
+//     { "words": "" },
+//     { "words": "「私はやればできる子なんです！褒めてもいいんですよ？」" },
+//     { "words": "誇り高き戦乙女オルトリン" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "10000/9ooo" },
+//     { "words": "CKADOKAWA:f4samurai2032mustっちゃけ" }
+//   ],
+//   "words_result_num": 16,
+//   "log_id": 1750579127328176826
+// }
+{
+  "name": "誇り高き戦乙女",
+  "name_tran": "骄傲的战乙女",
+  "type": "Progress",
+  "level": 5,
+  "color": "Red",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "オルトリン",
+    "character_tran": "奥尔特琳",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Sigma", "Any"],
+      "effect": "ATK+8000。デッキの上から3枚見て1枚を手札に加え、残りを捨札に置く。",
+      "effect_tran": "ATK+8000。从卡组上方查看3张并将1张加入手牌，剩余放置到弃牌区。"
+    },
+    "ex": {
+      "name": "うきうきバカンス",
+      "effect": "捨札のレベル4以下のプログレスカード1枚を選び、手札に加える。",
+      "name_tran": "喜不自禁连休时间",
+      "effect_tran": "选择1张弃牌区的等级4以下的进化者卡，将其加入手牌。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "「私はやればできる子なんです！褒めてもいいんですよ？」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-032",
+    "effect_index": "2-032",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ぶっちゃけ",
+    "promo": null
+  }
+}

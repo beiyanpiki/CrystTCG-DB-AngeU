@@ -1,0 +1,38 @@
+{
+  "name": "古代種の目覚め",
+  "name_tran": "古代种的觉醒",
+  "type": "Progress",
+  "level": 2,
+  "color": "Blue",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "美伽・ブレイズダリク",
+    "character_tran": "美伽·布蕾兹达莉克",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+5000。手札から奇跡を持つプログレスカード1枚を捨ててもよい。そうした場合、２枚引く。",
+      "effect_tran": "ATK+5000。可以从手牌将1张持有奇迹的进化者卡弃置。那个场合，抽取2张。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 6000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-003",
+    "effect_index": "3-003",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "りいちゅ",
+    "promo": null
+  }
+}

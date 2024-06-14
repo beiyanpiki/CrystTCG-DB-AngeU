@@ -1,0 +1,75 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、捨札の奇跡を持つプログレスカード1枚を選び、手札に加える。"
+//     },
+//     { "words": "自" },
+//     {
+//       "words": "奇跡一プログレスカード1枚を捨てる（リンクが失敗したとき、コストを払っても"
+//     },
+//     { "words": "よい。そうした場合、リンクブーストを1回行う)。" },
+//     { "words": "LINK5" },
+//     { "words": "2" },
+//     { "words": "ATK+7000。" },
+//     { "words": "「この世界でも、みんなが安らかに過ごすお手伝いができたら……" },
+//     { "words": "木漏れ日の片翼" },
+//     { "words": "レミエル" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7ooo" },
+//     { "words": "7ooo" },
+//     { "words": "CKADOKAWA4 samurai303must:兎塚エイジ" }
+//   ],
+//   "words_result_num": 16,
+//   "log_id": 1801487114061242101
+// }
+{
+  "name": "木漏れ日の片翼",
+  "name_tran": "树荫下投影的片翼",
+  "type": "Progress",
+  "level": 4,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、捨札の奇跡を持つプログレスカード1枚を選び、手札に加える。",
+      "effect_tran": "登场时，选择1张弃牌区的持有奇迹的进化者卡，将其加入手牌。"
+    },
+    {
+      "type": "Automatic",
+      "effect": "[奇跡] - プログレスカード1枚を捨てる",
+      "effect_tran": "[奇迹] - 将1张进化者卡弃置。"
+    }
+  ],
+  "progress_attr": {
+    "character": "レミエル",
+    "character_tran": "蕾米艾儿",
+    "link": {
+      "cost": 5,
+      "condition": ["Omega", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-031",
+    "effect_index": "3-031",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "兎塚工イジ",
+    "promo": null
+  }
+}

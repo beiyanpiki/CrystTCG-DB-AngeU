@@ -1,0 +1,55 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+6000。" },
+//     { "words": "青蘭島でしかできない、はじめての経験。" },
+//     { "words": "おまつりリモード" },
+//     { "words": "トト" },
+//     { "words": "5000" },
+//     { "words": "\"7o0o" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "CKADOKAWA4 4samurai3039mus斜文" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1801487156715061139
+// }
+{
+  "name": "おまつりモード",
+  "name_tran": "祭典模式",
+  "type": "Progress",
+  "level": 2,
+  "color": "White",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "トト",
+    "character_tran": "桃桃",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-039",
+    "effect_index": "3-039",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "斜文",
+    "promo": null
+  }
+}

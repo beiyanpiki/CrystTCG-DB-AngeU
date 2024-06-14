@@ -1,0 +1,53 @@
+// {
+//   "words_result": [
+//     { "words": "1O00円のの" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+6000。" },
+//     { "words": "描いたものを具現化する。それが彼女のエクシード。" },
+//     { "words": "創造のスケッチ遠薙深雪" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000/5o00" },
+//     { "words": "CKADOKAWA f4samurai200must:むリリん" }
+//   ],
+//   "words_result_num": 9,
+//   "log_id": 1750578917886354642
+// }
+{
+  "name": "創造のスケッチ",
+  "name_tran": "创作的草稿",
+  "type": "Progress",
+  "level": 1,
+  "color": "Blue",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "遠薙深雪",
+    "character_tran": "远薙深雪",
+    "link": {
+      "cost": 3,
+      "condition": ["Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "描いたものを具現化する。それが彼女のエクシード。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-001",
+    "effect_index": "2-001",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "むリリん",
+    "promo": null
+  }
+}

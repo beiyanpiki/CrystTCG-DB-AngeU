@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "PRO" },
+//     { "words": "EX" },
+//     { "words": "狙い撃ち" },
+//     { "words": "あなたのデッキの上から3枚を公開し、その中からレベ" },
+//     {
+//       "words": "ルの大きい順にプログレスカードを合計2枚まで選び、手札に加え、残り"
+//     },
+//     { "words": "を捨札に置く。" },
+//     { "words": "LINK5" },
+//     { "words": "ATK+7000。" },
+//     { "words": "甘えん坊の少女は、銃を手にした瞬間に狙撃手の目に変わる。" },
+//     { "words": "絶対の狙撃手" },
+//     { "words": "ラウラ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7ooo" },
+//     { "words": "8000" },
+//     { "words": "OKADOKAWA:f4samurai3043mustパセリ" }
+//   ],
+//   "words_result_num": 16,
+//   "log_id": 1801487177961764056
+// }
+{
+  "name": "絶対の狙撃手",
+  "name_tran": "绝对的狙击手",
+  "type": "Progress",
+  "level": 4,
+  "color": "White",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "ラウラ",
+    "character_tran": "劳拉",
+    "link": {
+      "cost": 5,
+      "condition": ["Omega", "Omega", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": {
+      "name": "狙い撃ち",
+      "effect": "あなたのデッキの上から3枚を公開し、その中からレベルの大きい順にプログレスカードを合計2枚まで選び、手札に加え、残りを捨札に置く。",
+      "name_tran": "瞄准打击",
+      "effect_tran": "从你的卡组上方将3张公开，从那之中选择合计最多2张等级较大顺序的进化者卡，将那些加入手牌，剩余放置到弃牌区。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-043",
+    "effect_index": "3-043",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "パセリ",
+    "promo": null
+  }
+}

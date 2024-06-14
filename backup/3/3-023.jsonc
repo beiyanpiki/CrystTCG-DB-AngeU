@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     { "words": "あなたのカードの効果で相手が手札かチャージを1枚以上捨てるた" },
+//     { "words": "び、プログレス1体を選び、ATK+3000。" },
+//     { "words": "EX闇薔薇の棘鞭相手は手札を1枚捨てる。" },
+//     { "words": "ATK+7000。相手は手札を1枚捨てる。" },
+//     { "words": "「私の基準はシンプルよ。面白いか、そうでないか」" },
+//     { "words": "薔薇の主" },
+//     { "words": "リゼリッタ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "12000710000" },
+//     { "words": "CKADOKAWA:f4samurai 3-023 lllust:W18" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801487068632620839
+// }
+{
+  "name": "薔薇の主",
+  "name_tran": "玫瑰之主",
+  "type": "Progress",
+  "level": 6,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "あなたのカードの効果で相手が手札かチャージを1枚以上捨てるたび、プログレス1体を選び、ATK+3000。",
+      "effect_tran": "每当因你的卡的效果对手将1张以上手牌或充能弃置，选择1只进化者，其AKT+3000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "リゼリッタ",
+    "character_tran": "莉泽丽塔",
+    "link": {
+      "cost": 7,
+      "condition": ["Sigma", "Sigma", "Sigma", "Sigma"],
+      "effect": "ATK+7000。相手は手札を1枚捨てる。",
+      "effect_tran": "ATK+7000。对手将1张手牌弃置。"
+    },
+    "ex": {
+      "name": "闇薔薇の棘鞭",
+      "effect": "相手は手札を1枚捨てる。",
+      "name_tran": "暗玫瑰的棘鞭",
+      "effect_tran": "对手将1张手牌弃置。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 12000,
+  "def": 12000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-023",
+    "effect_index": "3-023",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "W18",
+    "promo": null
+  }
+}

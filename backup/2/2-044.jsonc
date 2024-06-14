@@ -1,0 +1,74 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "Oの" },
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、あなたのダメージゾーンのカードを1枚選び、手札に加えてもよい。そうした場合、手札からプログレスカードかアクションカード1枚をダメージゾーンに置く。"
+//     },
+//     {
+//       "words": ""
+//     },
+//     { "words": "" },
+//     { "words": "LINK" },
+//     { "words": "Q" },
+//     { "words": "2" },
+//     { "words": "ATK+8000" },
+//     { "words": "「これも重要な任務。みんなが喜ぶのなら」" },
+//     { "words": "AA" },
+//     { "words": "聖夜の鼓動" },
+//     { "words": "ステラ" },
+//     { "words": "H" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "9000" },
+//     { "words": "11000" },
+//     { "words": "OKADOKAWA-4 samura2 0441llust:つなこ" }
+//   ],
+//   "words_result_num": 20,
+//   "log_id": 1750579200951671699
+// }
+{
+  "name": "聖夜の鼓動",
+  "name_tran": "圣诞夜的心跳",
+  "type": "Progress",
+  "level": 5,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたのダメージゾーンのカードを1枚選び、手札に加えてもよい。そうした場合、手札からプログレスカードかアクションカード1枚をダメージゾーンに置く。",
+      "effect_tran": "登场时，选择1张你的伤害区的卡，可以将其加入手牌。那个场合，从手牌将1张进化者卡或者行动卡放置到伤害区。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ステラ",
+    "character_tran": "斯特拉",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Any", "Any"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "「これも重要な任務。みんなが喜ぶのなら」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-044",
+    "effect_index": "2-044",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "つなこ",
+    "promo": null
+  }
+}

@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、あなたは任意の枚数のチャージを選んで捨てる。その"
+//     },
+//     {
+//       "words": "後、相手はチャージをX枚捨てる。Xは選んだチャージの枚数の+1に等し"
+//     },
+//     { "words": "い。" },
+//     { "words": "LINK8" },
+//     { "words": "ATK+9000。相手はチャージを1枚捨てる。" },
+//     { "words": "「あなたの血を、その……くださいませんか？」" },
+//     { "words": "血の盟約" },
+//     { "words": "アルマリア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "12oo0/12o0" },
+//     { "words": "OKADOKAWA:4 samurai3-024Ilst:ぼよよんろっく" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487072965923061
+// }
+{
+  "name": "血の盟約",
+  "name_tran": "血之盟约",
+  "type": "Progress",
+  "level": 7,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたは任意の枚数のチャージを選んで捨てる。その後、相手はチャージをX枚捨てる。Xは選んだチャージの枚数の+1に等しい。",
+      "effect_tran": "登场时，你选择任意张数的充能弃置。那之后，对手将X张充能弃置。X为已选择的充能的张数+1相同的数值。"
+    }
+  ],
+  "progress_attr": {
+    "character": "アルマリア",
+    "character_tran": "阿尔玛莉亚",
+    "link": {
+      "cost": 8,
+      "condition": ["Omega", "Omega", "Sigma", "Any", "Any"],
+      "effect": "ATK+9000。相手はチャージを1枚捨てる。",
+      "effect_tran": "ATK+9000。对手将1张手牌弃置。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 12000,
+  "def": 12000,
+  "stk": 2,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-024",
+    "effect_index": "3-024",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ぽよよん♥ろっく",
+    "promo": null
+  }
+}

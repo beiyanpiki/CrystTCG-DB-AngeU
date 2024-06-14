@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "のなる" },
+//     { "words": "あなたの黒か緑のプログレスがいる場合、ATK+2000/DEF+2000" },
+//     { "words": "(スタートカードは含まない)。" },
+//     { "words": "ATK+7000。" },
+//     { "words": "「これが私の本気だよ！ウインドスラッシュ！」" },
+//     { "words": "絶対の可能性" },
+//     { "words": "日向美海" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000/9ooo" },
+//     { "words": "OKADOKAWA f4samurai200musBカシク" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750578967260756670
+// }
+{
+  "name": "絶対の可能性",
+  "name_tran": "绝对的可能性",
+  "type": "Progress",
+  "level": 5,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたの黒か緑のプログレスがいる場合、ATK+2000/DEF+2000(スタートカードは含まない)。",
+      "effect_tran": "你的黑色或者绿色进化者存在的场合，ATK+2000/DEF+2000（不包含起始卡）。"
+    }
+  ],
+  "progress_attr": {
+    "character": "日向美海",
+    "character_tran": "日向美海",
+    "link": {
+      "cost": 7,
+      "condition": ["Omega", "Omega", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "「これが私の本気だよ！ウインドスラッシュ！」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-009",
+    "effect_index": "2-009",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "カントク",
+    "promo": null
+  }
+}

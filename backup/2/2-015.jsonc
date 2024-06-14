@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "むるのあの" },
+//     { "words": "自" },
+//     { "words": "登場したとき、あなたは1点のダメージを受ける。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000。" },
+//     { "words": "「素敵な出会いがある。そんな預言を聞いたんです」" },
+//     { "words": "銀の森の守護者" },
+//     { "words": "リュミエール" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7ooo" },
+//     { "words": "7ooo" },
+//     { "words": "CKADOKAWA f4samurc2015musB有河サトル" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1750579006586188051
+// }
+{
+  "name": "銀の森の守護者",
+  "name_tran": "银之森林的守护者",
+  "type": "Progress",
+  "level": 2,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたは1点ダメージを受ける。",
+      "effect_tran": "登场时，你受到1点伤害。"
+    }
+  ],
+  "progress_attr": {
+    "character": "リュミエール",
+    "character_tran": "琉米艾儿",
+    "link": {
+      "cost": 4,
+      "condition": ["Sigma", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "「素敵な出会いがある。そんな預言を聞いたんです」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-015",
+    "effect_index": "2-015",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "有河サトル",
+    "promo": null
+  }
+}

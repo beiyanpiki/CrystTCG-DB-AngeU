@@ -1,0 +1,51 @@
+// {
+//   "words_result": [
+//     { "words": "0" },
+//     {
+//       "words": "条件緑のプログレス1体以上、青のプログレス1体以上（スタートカード"
+//     },
+//     { "words": "は含まない)。" },
+//     {
+//       "words": "チャージを1枚捨てる。そうした場合、あなたのチャージをすべて手札に加"
+//     },
+//     { "words": "える。その後、手札を自由にチャージゾーンに置いてもよい。" },
+//     { "words": "戦力の的確な配置と分散。それこそが戦況を左右する戦略。" },
+//     { "words": "リチャージ・カウント" },
+//     { "words": "CKADOKAWA4 4samurai3:06 O Illust:入江翔" }
+//   ],
+//   "words_result_num": 8,
+//   "log_id": 1801487273753877196
+// }
+{
+  "name": "リチャージ・カウント",
+  "name_tran": "计数・再装填",
+  "type": "Action",
+  "level": 0,
+  "color": "Green",
+  "text": "",
+  "abilities": [],
+  "progress_attr": null,
+  "action_attr": {
+    "condition": "緑のプログレス1体以上、青のプログレス1体以上",
+    "effect": "チャージを1枚捨てる。そうした場合、あなたのチャージをすべて手札に加える。その後、手札を自由にチャージゾーンに置いてもよい。",
+    "condition_tran": "绿色的进化者1只以上，蓝色的进化者1只以上。",
+    "effect_tran": "将1张充能弃置。那个场合，将你的充能全部加入手牌。那之后，可以将手牌自由放置到充能区。"
+  },
+  "frame_attr": null,
+  "atk": null,
+  "def": null,
+  "stk": null,
+  "flavor_text": "",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-060",
+    "effect_index": "3-060",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "入江翔",
+    "promo": null
+  }
+}

@@ -1,0 +1,54 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "Oのの" },
+//     { "words": "LINK" },
+//     { "words": "ATK+4000。チャージ+1" },
+//     { "words": "アインスが操る干の刃。その名はミリアルディア。" },
+//     { "words": "秘めた刃アインス" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7o00 77o00" },
+//     { "words": "CKADOKAWA4 samura2052ls:サギコウシ" }
+//   ],
+//   "words_result_num": 10,
+//   "log_id": 1750579264834471878
+// }
+{
+  "name": "秘めた刃",
+  "name_tran": "隐秘之刃",
+  "type": "Progress",
+  "level": 3,
+  "color": "Green",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "アインス",
+    "character_tran": "爱因斯",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Omega"],
+      "effect": "ATK+4000。チャージ+1。",
+      "effect_tran": "ATK+4000。充能+1。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "アインスが操る干の刃。その名はミリアルディア。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-052",
+    "effect_index": "2-052",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

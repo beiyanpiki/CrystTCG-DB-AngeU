@@ -1,0 +1,63 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "ご午、ミ" },
+//     { "words": "あなたのレベル7以上のプログレスがいる場合、ATK+2000/DEF+2000。" },
+//     { "words": "" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+5000" },
+//     { "words": "電子の海の中で、彼女は確かな意思を持っている。" },
+//     { "words": "クリスマス・プログラムヴェノム666" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "50006o0o" },
+//     { "words": "OKADOKAWA4 samurai2039mstサワアキラ" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750579170062295509
+// }
+
+{
+  "name": "クリスマス・プログラム",
+  "name_tran": "圣诞·程序",
+  "type": "Progress",
+  "level": 2,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたのレベル7以上のプログレスがいる場合、ATK+2000/DEF+2000。",
+      "effect_tran": "你的等级7以上的进化者存在的场合，ATK+2000/DEF+2000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ヴェノム666",
+    "character_tran": "贝诺姆666",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 6000,
+  "stk": 1,
+  "flavor_text": "電子の海の中で、彼女は確かな意思を持っている。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-039",
+    "effect_index": "2-039",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "サワノアキラ",
+    "promo": null
+  }
+}

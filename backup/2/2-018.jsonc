@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "4" },
+//     { "words": "O円" },
+//     { "words": "青と赤のプログレスにはガードされない。" },
+//     { "words": "LINK5" },
+//     { "words": "1" },
+//     { "words": "ATK+7000" },
+//     { "words": "「着付けに手間取ってしまいました。ど、どうですか……？」" },
+//     { "words": "冬に咲く黑薔薇" },
+//     { "words": "マコロン" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000" },
+//     { "words": "9ooo" },
+//     { "words": "OKADOKAWA-f4samur208mus文" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1750579025360583810
+// }
+{
+  "name": "冬に咲く黒薔薇",
+  "name_tran": "冬日盛放的黑玫瑰 ",
+  "type": "Progress",
+  "level": 4,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "青と赤のプログレスにはガードされない。",
+      "effect_tran": "不会被蓝色和红色的进化者防御。"
+    }
+  ],
+  "progress_attr": {
+    "character": "マコロン",
+    "character_tran": "玛珂珑",
+    "link": {
+      "cost": 5,
+      "condition": ["Omega", "Sigma", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "「着付けに手間取ってしまいました。ど、どうですか……？」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-018",
+    "effect_index": "2-018",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "斜文",
+    "promo": null
+  }
+}

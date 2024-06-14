@@ -1,0 +1,70 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、このプログレスに隣接するプログレスすべてのATK+2000"
+//     },
+//     { "words": "EX" },
+//     { "words": "エールスカイほかのプログレス1体を選び、リンク+3" },
+//     { "words": "LNK8②ATK+9000。捨札の赤のプログレスカード1枚" },
+//     { "words": "を選び、手札に加えてもよい。" },
+//     { "words": "「友だちがいて、笑顔になれて。それって素敵なことだよね」" },
+//     { "words": "仲間を照らす光" },
+//     { "words": "エルエル" },
+//     { "words": "1200/1ooo" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "OKADOKAWA:f4samurai3035 mlust:ろね" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487136013047820
+// }
+{
+  "name": "仲間を照らす光",
+  "name_tran": "照耀同伴的光",
+  "type": "Progress",
+  "level": 7,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、このカードに隣接するプログレスすべてのATK+2000。",
+      "effect_tran": "登场时，将邻接这只进化者的全部进化者的ATK+2000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "エルエル",
+    "character_tran": "艾露艾露",
+    "link": {
+      "cost": 8,
+      "condition": ["Omega", "Omega", "Sigma", "Any", "Any"],
+      "effect": "ATK+9000。捨札の赤のプログレスカード1枚を選び、手札に加えてもよい。",
+      "effect_tran": "ATK+9000。选择1张弃牌区的红色的进化者卡，可以将其加入手牌。"
+    },
+    "ex": {
+      "name": "エールスカイ",
+      "effect": "ほかのプログレス1体を選び、リンク+3。",
+      "name_tran": "懒洋洋的天空",
+      "effect_tran": "选择1只其他的进化者，其链接+3。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 12000,
+  "def": 11000,
+  "stk": 2,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-035",
+    "effect_index": "3-035",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "三嶋くろね",
+    "promo": null
+  }
+}

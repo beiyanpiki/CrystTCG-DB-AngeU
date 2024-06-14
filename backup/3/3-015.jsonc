@@ -1,0 +1,66 @@
+// {
+//   "words_result": [
+//     { "words": "カO0円" },
+//     { "words": "自" },
+//     { "words": "あなたのターン中、センターにいるこのプログレスのATKが8000以" },
+//     {
+//       "words": "上になったとき、相手はセンターのプログレスのチャージを1枚捨てる。こ"
+//     },
+//     { "words": "の能力は1ターンに1回しか発動しない。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+5000。" },
+//     { "words": "「メイドさんの仕事、完璧にこなしてみせます」" },
+//     { "words": "メイドの極致" },
+//     { "words": "マコロン" },
+//     { "words": "DEF" },
+//     { "words": "5000/5ooo" },
+//     { "words": "ATK" },
+//     { "words": "CKADOKAWA:4 amurai3-015lst:アマネシキ" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801487023594783680
+// }
+{
+  "name": "メイドの極致",
+  "name_tran": "女仆的极致",
+  "type": "Progress",
+  "level": 2,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "あなたのターン中、センターにいるこのプログレスのATKが8000以上になったとき、相手はセンターのプログレスのチャージを1枚捨てる。この能力は1ターンに1回しか発動しない。",
+      "effect_tran": "你的回合中，中枢区存在的进化者的ATK变为8000以上时，对手将1张中枢区的进化者的充能弃置。这个能力1回合只能发动1次。"
+    }
+  ],
+  "progress_attr": {
+    "character": "マコロン",
+    "character_tran": "马克龙",
+    "link": {
+      "cost": 3,
+      "condition": ["Sigma", "Any"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-015",
+    "effect_index": "3-015",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "アマネシキ",
+    "promo": null
+  }
+}

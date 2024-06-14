@@ -1,0 +1,60 @@
+// {
+//   "words_result": [
+//     { "words": "EXチェインルミナス" },
+//     { "words": "3枚引き、手札を2枚捨てる。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+5000。" },
+//     { "words": "「感想くらい聞かせてくれても、いいと思うんだけど」" },
+//     { "words": "特別な夜" },
+//     { "words": "蒼月紗夜" },
+//     { "words": "5000/5ooo" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "CKADOKAWAf4 samurai3001st:涼香" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1801486944171472742
+// }
+{
+  "name": "特別な夜",
+  "name_tran": "特别的夜晚",
+  "type": "Progress",
+  "level": 1,
+  "color": "Blue",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "蒼月紗夜",
+    "character_tran": "苍月纱夜",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Any"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。"
+    },
+    "ex": {
+      "name": "チェイン・ルミナス",
+      "effect": "3枚引き、手札を2枚捨てる。",
+      "name_tran": "链结·月光",
+      "effect_tran": "抽取３张，将２张手牌弃置。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-001",
+    "effect_index": "3-001",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "涼香",
+    "promo": null
+  }
+}

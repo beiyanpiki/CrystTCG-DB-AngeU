@@ -1,0 +1,68 @@
+// {
+//   "words_result": [
+//     { "words": "セ)" },
+//     { "words": "起" },
+//     {
+//       "words": "このプログレスをフォールする：あなたのいずれかのチャージゾーンのチャージ1枚を公開する。それがプログレスカードかアクションカードの場合、手札に加える。"
+//     },
+//     {
+//       "words": ""
+//     },
+//     { "words": "" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+4000。" },
+//     { "words": "青い空と眩しい光。青の世界にはそれがある。" },
+//     { "words": "光の中でシルト" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "5000" },
+//     { "words": "CKADOKAWA:f4samurai 2-049" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1750579239033443511
+// }
+{
+  "name": "光の中で",
+  "name_tran": "沐浴光下",
+  "type": "Progress",
+  "level": 1,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "このプログレスをフォールする：あなたのいずれかのチャージゾーンのチャージ1枚を公開する。それがプログレスカードかアクションカードの場合、手札に加える。",
+      "effect_tran": "将这个进化者沉睡：将1张你的任意的充能区的1张充能公开。其是进化者卡或者行动卡的场合，将其加入手牌。"
+    }
+  ],
+  "progress_attr": {
+    "character": "シルト",
+    "character_tran": "希尔德",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+4000。",
+      "effect_tran": "ATK+4000。 "
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "青い空と眩しい光。青の世界にはそれがある。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-049",
+    "effect_index": "2-049",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": null,
+    "promo": null
+  }
+}

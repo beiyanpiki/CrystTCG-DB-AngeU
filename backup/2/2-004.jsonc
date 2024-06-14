@@ -1,0 +1,65 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "起" },
+//     {
+//       "words": "手札を1枚捨てる：「レベル5以上のプログレスにはガードされない。」"
+//     },
+//     { "words": "を得る。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000。" },
+//     { "words": "「特別な日、だから。特別な人と週ごしたいなって……」" },
+//     { "words": "聖夜のときめき蒼月紗夜" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000/7oo" },
+//     { "words": "1" },
+//     { "words": "OKADOKAWA f4samurai200mus涼香" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1750578936138571429
+// }
+{
+  "name": "聖夜のときめき",
+  "name_tran": "圣诞夜的悸动",
+  "type": "Progress",
+  "level": 3,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "手札を1枚捨てる: 「レベル5以上のプログレスにはガードされない。」を得る。",
+      "effect_tran": "将1张手牌弃置：获得「不会被等级5以上的进化者防御」。"
+    }
+  ],
+  "progress_attr": {
+    "character": "蒼月紗夜",
+    "character_tran": "苍月纱夜",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "「特別な日、だから。特別な人と週ごしたいなって……」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-004",
+    "effect_index": "2-004",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "涼香",
+    "promo": null
+  }
+}

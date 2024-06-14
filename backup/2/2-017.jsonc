@@ -1,0 +1,65 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "常" },
+//     {
+//       "words": "このプログレスが【名称（ソフィーナ）】にシフトする際、必要なコスト"
+//     },
+//     { "words": "は2減る。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000" },
+//     { "words": "「この薔薇の棘にはね、一つ一つに違う毒が入っているの」" },
+//     { "words": "闇薔薇の誘惑" },
+//     { "words": "リゼリッタ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7ooo 7o00" },
+//     { "words": "CKADOKAWA-f4samurai 2-017 Illust:GEL" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1750579018617732058
+// }
+{
+  "name": "闇薔薇の誘惑",
+  "name_tran": "暗玫瑰的诱惑 ",
+  "type": "Progress",
+  "level": 3,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "このプログレスが【名称(ソフィーナ)】にシフトする際、必要なコストは2減る。",
+      "effect_tran": "这个进化者转换为【名称（索菲娜）】之际，所需消费减少2。"
+    }
+  ],
+  "progress_attr": {
+    "character": "リゼリッタ",
+    "character_tran": "莉瑟琳塔",
+    "link": {
+      "cost": 4,
+      "condition": ["Sigma", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "「この薔薇の棘にはね、一つ一つに違う毒が入っているの」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-017",
+    "effect_index": "2-017",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "GEL",
+    "promo": null
+  }
+}

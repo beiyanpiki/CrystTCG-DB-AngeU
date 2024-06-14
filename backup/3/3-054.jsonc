@@ -1,0 +1,68 @@
+// {
+//   "words_result": [
+//     { "words": "O0みの" },
+//     { "words": "起" },
+//     {
+//       "words": "このプログレスのチャージを1枚捨てる：1枚引く。この能力は1ターン"
+//     },
+//     { "words": "に2回しか使えない。" },
+//     { "words": "LINK5" },
+//     { "words": "ATK+7000" },
+//     {
+//       "words": "それは遠い記憶。かつては、グリューネシルトにも花が咲き誇っていた。"
+//     },
+//     { "words": "郷愁の瞳" },
+//     { "words": "シルト" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000" },
+//     { "words": "8000" },
+//     { "words": "CKADOKAWA:f4samurai3-054 (llusts" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801487235943023450
+// }
+{
+  "name": "郷愁の瞳",
+  "name_tran": "乡愁的瞳孔",
+  "type": "Progress",
+  "level": 4,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "このプログレスのチャージを1枚捨てる:1枚引く。この能力は1ターンに2回しか使えない。",
+      "effect_tran": "将1张这个进化者的充能弃置：抽取1张。这个能力1回合只能使用2次。"
+    }
+  ],
+  "progress_attr": {
+    "character": "シルト",
+    "character_tran": "希尔德",
+    "link": {
+      "cost": 5,
+      "condition": ["Omega", "Sigma", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-054",
+    "effect_index": "3-054",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "吉岡榊",
+    "promo": null
+  }
+}

@@ -1,0 +1,65 @@
+// {
+//   "words_result": [
+//     { "words": "え元" },
+//     { "words": "自" },
+//     {
+//       "words": "奇跡一あなたは1点のダメージを受ける（リンクが失敗したとき、コス"
+//     },
+//     { "words": "トを払ってもよい。そうした場合、リンクブーストを1回行う)。" },
+//     { "words": "LN5g9UATK+7000。あなたの受けているダメージが3" },
+//     { "words": "点以上の場合、相手は手札を1枚捨てる。" },
+//     { "words": "「魔女王の右腕と呼ばれるからには、中途半端は許されないわ」" },
+//     { "words": "世界を識る黑魔女" },
+//     { "words": "ソフィーナ" },
+//     { "words": "ATK/" },
+//     { "words": "DEF" },
+//     { "words": "9000/8o00" },
+//     { "words": "OKADOKAWAf4 samurai3019ust:狗神煌" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487044827381348
+// }
+{
+  "name": "世界を識る黒魔女",
+  "name_tran": "认知世界的黑魔女",
+  "type": "Progress",
+  "level": 4,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "[奇跡] - あなたは1点のダメージを受ける",
+      "effect_tran": "[奇迹] - 你受到1点伤害。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ソフィーナ",
+    "character_tran": "索菲娜",
+    "link": {
+      "cost": 5,
+      "condition": ["Omega", "Omega", "Any"],
+      "effect": "ATK+7000。あなたの受けているダメージが3点以上の場合、相手は手札を1枚捨てる。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-019",
+    "effect_index": "3-019",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "狗神煌",
+    "promo": null
+  }
+}

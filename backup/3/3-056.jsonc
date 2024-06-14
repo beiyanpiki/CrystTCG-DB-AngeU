@@ -1,0 +1,63 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "あなたのプログレスがすべて緑なら、このプログレスのATK+2000/" },
+//     { "words": "DEF+2000(スタートカードは含まない)。" },
+//     { "words": "LINK6" },
+//     { "words": "ATK+5000。あなたの緑のプログレスすべての" },
+//     { "words": "ATK+2000" },
+//     { "words": "「私のこと、みててください！」" },
+//     { "words": "声を聴く者" },
+//     { "words": "セナ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "9ooo" },
+//     { "words": "OKADOKAWAf4 samurai3-056musササウシ" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487247905736780
+// }
+{
+  "name": "声を聴く者",
+  "name_tran": "聆听此声之人",
+  "type": "Progress",
+  "level": 5,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたのプログレスがすべて緑なら、このプログレスのATK+2000/DEF+2000(スタートカードは含まない)。",
+      "effect_tran": "你的化者全部是绿色的话，这只进化者的ATK+2000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "セナ",
+    "character_tran": "赛娜",
+    "link": {
+      "cost": 6,
+      "condition": ["Sigma", "Any", "Any"],
+      "effect": "ATK+5000。あなたの緑のプログレスすべてのATK+2000。",
+      "effect_tran": "ATK+5000。你的绿色进化者全体的ATK+2000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-056",
+    "effect_index": "3-056",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

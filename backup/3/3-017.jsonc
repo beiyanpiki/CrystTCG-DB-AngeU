@@ -1,0 +1,68 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "自" },
+//     {
+//       "words": "このプログレスがガードしたとき、あなたは1点のダメージを受けても"
+//     },
+//     {
+//       "words": "よい。そうした場合、このプログレスのDEF+8000。この手順を最大2回"
+//     },
+//     { "words": "まで繰り返してもよい。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+5000。" },
+//     { "words": "「aドライバーのカ……なかなか興味深いな」" },
+//     { "words": "引き出される力" },
+//     { "words": "ミルドレッド" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000/8000" },
+//     { "words": "CKADOKAWA-f4 samurai3-017Ist:紅緒" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801487034913451101
+// }
+{
+  "name": "引き出される力",
+  "name_tran": "被激发出的力量",
+  "type": "Progress",
+  "level": 3,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "このプログレスがガードしたとき、あなたは1点のダメージを受けてもよい。そうした場合、このプログレスのDEF+8000。この手順を最大2回まで繰り返してもよい。",
+      "effect_tran": "这个进化者防御时，你可以受到1点伤害。那个场合，这个进化者的DEF+8000。可以将这个步骤最多2次重复。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ミルドレッド",
+    "character_tran": "米尔特蕾德",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Omega"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-0017",
+    "effect_index": "3-017",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "紅緒",
+    "promo": null
+  }
+}

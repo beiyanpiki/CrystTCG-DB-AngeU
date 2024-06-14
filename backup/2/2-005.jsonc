@@ -1,0 +1,55 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "O円の" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+5000。あなたのデッキの上から1枚見て、" },
+//     { "words": "デッキの上、または下に自由に戻す。" },
+//     { "words": "厳格な武人である彼女にも、こんな一面があるのだ。" },
+//     { "words": "気づかない恋御影葵" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000/8000" },
+//     { "words": "CKADOKAWA-f4 samurai2-005lst:なかじまゆか" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1750578942172755361
+// }
+{
+  "name": "気づかない恋",
+  "name_tran": "此恋未曾注意",
+  "type": "Progress",
+  "level": 3,
+  "color": "Blue",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "御影葵",
+    "character_tran": "御影葵",
+    "link": {
+      "cost": 4,
+      "condition": ["Sigma", "Sigma"],
+      "effect": "ATK+5000。あなたのデッキの上から1枚見て、デッキの上、またはデッキの下に自由に戻す。",
+      "effect_tran": "ATK+5000。从你的卡组上方查看1张，将其自由回到卡组上方或下方。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "厳格な武人である彼女にも、こんな一面があるのだ。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-005",
+    "effect_index": "2-005",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "なかじまゆか",
+    "promo": null
+  }
+}

@@ -1,0 +1,50 @@
+// {
+//   "words_result": [
+//     { "words": "0" },
+//     { "words": "条件" },
+//     { "words": "緑のプロクレス1体以上黒のプログレス1体以上スタートカード" },
+//     { "words": "は含まない)。" },
+//     {
+//       "words": "チャージをI枚捨てる。そうした場合あなたのチヤージの合計が3枚以上あるなら、対戦相手に2点のメージを与える。"
+//     },
+//     { "words": "" },
+//     { "words": "千の刃が放つ、圧倒的な破壊のカ。" },
+//     { "words": "すべてを貫く光" },
+//     { "words": "CKADOKAWA.f4 Isamurai2-060lst:カジミャ" }
+//   ],
+//   "words_result_num": 9,
+//   "log_id": 1750579320622276789
+// }
+{
+  "name": "すべてを貫く光",
+  "name_tran": "贯穿一切之光",
+  "type": "Action",
+  "level": 0,
+  "color": "Green",
+  "text": "",
+  "abilities": [],
+  "progress_attr": null,
+  "action_attr": {
+    "condition": "緑のプロクレス1体以上黒のプログレス1体以上(スタートカードは含まない)。",
+    "effect": "チャージをI枚捨てる。そうした場合あなたのチヤージの合計が3枚以上あるなら、対戦相手に2点のメージを与える。",
+    "condition_tran": "绿色的进化者1只以上，黑色的进化者1只以上（不包含起始卡）。",
+    "effect_tran": "将1张充能弃置。那个场合，你的充能的合计为3张的话，给予对战对手2点伤害。"
+  },
+  "frame_attr": null,
+  "atk": null,
+  "def": null,
+  "stk": null,
+  "flavor_text": "千の刃が放つ、圧倒的な破壊のカ。",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-060",
+    "effect_index": "2-060",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "カジミャ",
+    "promo": null
+  }
+}

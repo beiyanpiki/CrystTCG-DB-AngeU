@@ -1,0 +1,55 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "本のの" },
+//     { "words": "LINK7" },
+//     { "words": "3" },
+//     { "words": "ATK+7000" },
+//     { "words": "「愛すべき後輩がいて、センパイは幸せものですね？」" },
+//     { "words": "愛メイド新田由美" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "10000/100001" },
+//     { "words": "OKADOKAWA-f4samurai2008mustくは" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1750578960961227369
+// }
+{
+  "name": "愛・メイド",
+  "name_tran": "爱・女仆",
+  "type": "Progress",
+  "level": 5,
+  "color": "Blue",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "新田由美",
+    "character_tran": "新田由美",
+    "link": {
+      "cost": 7,
+      "condition": ["Any", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "「愛すべき後輩がいて、センパイは幸せものですね？」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-008",
+    "effect_index": "2-008",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "くらは",
+    "promo": null
+  }
+}

@@ -1,0 +1,73 @@
+// {
+//   "words_result": [
+//     { "words": "えの" },
+//     { "words": "常" },
+//     {
+//       "words": "このターン、あなたがドローフェイズ以外でカードを引いている場合、"
+//     },
+//     { "words": "STK+1。" },
+//     { "words": "EX" },
+//     { "words": "シャボンスプレッダー" },
+//     { "words": "2枚引き、手札を1枚捨てる。" },
+//     { "words": "LINK7" },
+//     { "words": "2" },
+//     { "words": "ATK+8000。" },
+//     { "words": "「好きにはさせないよ！シャボンスプレッダー！」" },
+//     { "words": "守るべきものは千尋" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "11o007110001" },
+//     { "words": "OKADOKAWA-f4samurat200muBササセ" }
+//   ],
+//   "words_result_num": 16,
+//   "log_id": 1750578974527019539
+// }
+{
+  "name": "守るべきものは…",
+  "name_tran": "应当守护之物…",
+  "type": "Progress",
+  "level": 6,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "このターン、あなたがドローフェイズ以外でカードを引いている場合、STK+1。",
+      "effect_tran": "这个回合，你在抽卡阶段以外已将卡抽取的场合，STK+1。"
+    }
+  ],
+  "progress_attr": {
+    "character": "千尋",
+    "character_tran": "千寻",
+    "link": {
+      "cost": 7,
+      "condition": ["Sigma", "Sigma", "Any", "Any"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": {
+      "name": "シャボンスプレッダー",
+      "effect": "2枚引き、手札を1枚捨てる。",
+      "name_tran": "泡泡扩散",
+      "effect_tran": "抽取2张，将1张手牌弃置。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "「好きにはさせないよ！シャボンスプレッダー！」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-010",
+    "effect_index": "2-010",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

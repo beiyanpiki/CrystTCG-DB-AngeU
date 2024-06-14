@@ -1,0 +1,54 @@
+// {
+//   "words_result": [
+//     { "words": "LINK" },
+//     { "words": "3" },
+//     { "words": "ATK+6000" },
+//     { "words": "さまざまな出会いを経て、セニアは成長する。" },
+//     { "words": "未来のために" },
+//     { "words": "セニア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "50005000" },
+//     { "words": "CKADOKAWA:f4samurai 2-037 Illust:abec" }
+//   ],
+//   "words_result_num": 10,
+//   "log_id": 1750579157421974193
+// }
+{
+  "name": "未来のために",
+  "name_tran": "为未来",
+  "type": "Progress",
+  "level": 1,
+  "color": "White",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "セニア",
+    "character_tran": "赛妮娅",
+    "link": {
+      "cost": 3,
+      "condition": ["Sigma", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "さまざまな出会いを経て、セニアは成長する。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-037",
+    "effect_index": "2-037",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "abec",
+    "promo": null
+  }
+}

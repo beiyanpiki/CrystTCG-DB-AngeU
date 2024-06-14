@@ -1,0 +1,63 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "自" },
+//     { "words": "登場したとき、あなたのプログレスすべてをアウェイクする。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000。" },
+//     { "words": "「アタシだって、その気になれば強いんだよ？」" },
+//     { "words": "灯火の先へ" },
+//     { "words": "ナイア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7ooo" },
+//     { "words": "8000" },
+//     { "words": "CKADOKAWA4 samurai3-052Ilst:トモセシュンサク" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487224923163601
+// }
+{
+  "name": "灯火の先へ",
+  "name_tran": "向灯火的前方",
+  "type": "Progress",
+  "level": 3,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたのプログレスすべてをアウェイクする。",
+      "effect_tran": "登场时，将你的进化者全体唤醒。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ナイア",
+    "character_tran": "奈亚",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-052",
+    "effect_index": "3-052",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "トモセシュシリワ",
+    "promo": null
+  }
+}

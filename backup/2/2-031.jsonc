@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "4" },
+//     { "words": "自" },
+//     {
+//       "words": ""
+//     },
+//     { "words": "登場したとき、あなたのデッキの上から3枚を公開し、その中からプログレスカード1枚を手札に加え、残りを捨札に置く。" },
+//     { "words": "LINK5" },
+//     { "words": "1" },
+//     { "words": "ATK+7000。" },
+//     { "words": "豊穣と収穫のため、彼女は今日も祈りを捧げる。" },
+//     { "words": "舞い踊る女神" },
+//     { "words": "ミシス" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7ooo" },
+//     { "words": "7ooo" },
+//     { "words": "OKADOKAWA f4samurai 2:031 Illust:Nardak" }
+//   ],
+//   "words_result_num": 15,
+//   "log_id": 1750579120641869347
+// }
+{
+  "name": "舞い踊る女神",
+  "name_tran": "舞动女神",
+  "type": "Progress",
+  "level": 4,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたのデッキの上から3枚を公開し、その中からプログレスカード1枚を手札に加え、残りを捨札に置く。",
+      "effect_tran": "登场时，从你的卡组上方将3张公开，从那之中将1张进化者卡加入手牌，剩余放置到弃牌区。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ミシス",
+    "character_tran": "蜜西丝",
+    "link": {
+      "cost": 5,
+      "condition": ["Sigma", "Sigma", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "豊穣と収穫のため、彼女は今日も祈りを捧げる。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-031",
+    "effect_index": "2-031",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "Nardak",
+    "promo": null
+  }
+}

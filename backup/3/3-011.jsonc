@@ -1,0 +1,70 @@
+// {
+//   "words_result": [
+//     {
+//       "words": "このターン、あなたがドローフェイズ以外でカードを引いている場合、"
+//     },
+//     { "words": "このカードがシフトして登場する際、必要なコストは1減る。" },
+//     { "words": "EXアモーレ・ラッシュあなたのデッキの上から1枚見て、デッキの" },
+//     { "words": "上、または捨札に置く。その後、1枚引く。" },
+//     { "words": "LINK7" },
+//     { "words": "ATK+8000。" },
+//     { "words": "「新田のような後輩をもって、先輩は世界一の幸せものですね～」" },
+//     { "words": "世界一の後輩？" },
+//     { "words": "新田由美" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "1o00/11ooo" },
+//     { "words": "CKADOKAWA4 samurai3-01mustく5は" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1801487003228388537
+// }
+{
+  "name": "世界一の後輩?",
+  "name_tran": "世界第一的后辈？",
+  "type": "Progress",
+  "level": 6,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "このターン、あなたがドローフェイズ以外でカードを引いている場合、このカードがシフトして登場する際、必要なコストは1減る。",
+      "effect_tran": "这个回合，你在抽卡阶段以外已将卡抽取的场合，这张卡转换登场之际，所需消费减少1。"
+    }
+  ],
+  "progress_attr": {
+    "character": "新田由美",
+    "character_tran": "新田由美",
+    "link": {
+      "cost": 7,
+      "condition": ["Omega", "Sigma", "Any"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": {
+      "name": "アモーレ・ラッシュ",
+      "effect": "あなたのデッキの上から1枚見て、デッキの上、または捨札に置く。その後、1枚引く。",
+      "name_tran": "为爱・冲锋",
+      "effect_tran": "从你的卡组的上方查看1张，放置到卡组的上方，或者弃牌区。那之后，抽取1张。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-011",
+    "effect_index": "3-011",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "くらは",
+    "promo": null
+  }
+}

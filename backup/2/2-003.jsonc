@@ -1,0 +1,69 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "知Oの元のの" },
+//     { "words": "起" },
+//     {
+//       "words": "手札からこのカードを捨てる：あなたのデッキの上から2枚を公開し、"
+//     },
+//     {
+//       "words": "その中からプログレスカード1枚を手札に加え、残りを捨札に置く。この能"
+//     },
+//     { "words": "力はこのカードが手札にあるときにしか使えない。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+5000。" },
+//     { "words": "憧れの青蘭学園。これからどんな出会いが待っているのだろう。" },
+//     { "words": "新入生久遠空" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000/5o00" },
+//     { "words": "CKADOKAWA:f4samurai2-003lsカトク" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1750578931844169546
+// }
+
+{
+  "name": "新入生",
+  "name_tran": "新入生",
+  "type": "Progress",
+  "level": 2,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "手札からこのカードを捨てる: あなたのデッキの上から2枚を公開し、その中からプログレスカード1枚を手札に加え、残りを捨札に置く。この能力はこのカードが手札にあるときにしか使えない。",
+      "effect_tran": "从手牌将这张卡弃置：从你的卡组上方将2张公开，从那之中将1张进化者卡加入手牌，将剩余放置到弃牌区。这个能力只在这张卡在手牌存在时才能使用。"
+    }
+  ],
+  "progress_attr": {
+    "character": "久遠空",
+    "character_tran": "久远空",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "憧れの青蘭学園。これからどんな出会いが待っているのだろう。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-003",
+    "effect_index": "2-003",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "カントク",
+    "promo": null
+  }
+}

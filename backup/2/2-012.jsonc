@@ -1,0 +1,50 @@
+// {
+//   "words_result": [
+//     { "words": "0" },
+//     { "words": "条件" },
+//     { "words": "青のプロクレス1体以上、黒のプログクレス1体以上スタートカード" },
+//     { "words": "は含まない)。" },
+//     {
+//       "words": "テッキの上から3枚見てテッキの上または下に自由に戻す相手はチャー"
+//     },
+//     { "words": "ジをI枚捨てる。" },
+//     { "words": "“視えた\"ときには、もう遅い。" },
+//     { "words": "研ぎ澄まされた光" },
+//     { "words": "CKADOKAWA4 samurai2-012llst:蜻田" }
+//   ],
+//   "words_result_num": 9,
+//   "log_id": 1750578986741001600
+// }
+{
+  "name": "研ぎ澄まされた光",
+  "name_tran": "澄如明镜之光",
+  "type": "Action",
+  "level": 0,
+  "color": "Blue",
+  "text": "",
+  "abilities": [],
+  "progress_attr": null,
+  "action_attr": {
+    "condition": "青のプログレス1体以上、黒のプログレス1体以上(スタートカードは含まない)。",
+    "effect": "デッキの上から3枚見て、デッキの上または下に自由に戻す。相手はチャージを1枚捨てる。",
+    "condition_tran": "蓝色进化者1只以上，黑色进化者1只以上（不包含起始卡）。",
+    "effect_tran": "从卡组上方查看3张，将那些自由回到卡组上方或者下方。对手将1张充能弃置。"
+  },
+  "frame_attr": null,
+  "atk": null,
+  "def": null,
+  "stk": null,
+  "flavor_text": "\"視えた\"ときには、もう遅い。",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-012",
+    "effect_index": "2-012",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "蛸田",
+    "promo": null
+  }
+}

@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "E12" },
+//     { "words": "あなたのチャージの合計が4枚以上の場合、ATK+2000/" },
+//     { "words": "あなたのチャージの合計が4枚以上の場合、ATK+2000/DEF+2000。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+6000。" },
+//     { "words": "「アタシとダメな感じのクリスマス、やんない？」" },
+//     { "words": "聖夜も変わらずナイア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000/600o" },
+//     { "words": "OKADOKAWA-f4samurai2-051ust:トモセシュンサク" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750579253962162877
+// }
+{
+  "name": "聖夜も変わらず",
+  "name_tran": "圣诞夜也一如平常",
+  "type": "Progress",
+  "level": 2,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたのチャージの合計が4枚以上の場合、ATK+2000/DEF+2000。",
+      "effect_tran": "你的充能区的合计为4张以上的场合，ATK+2000/DEF+2000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ナイア",
+    "character_tran": "奈亚",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。 "
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 6000,
+  "stk": 1,
+  "flavor_text": "「アタシとダメな感じのクリスマス、やんない？」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-051",
+    "effect_index": "2-051",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "トモセシュンサク",
+    "promo": null
+  }
+}

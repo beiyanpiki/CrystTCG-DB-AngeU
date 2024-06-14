@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "起" },
+//     {
+//       "words": "手札からこのカードを公開する：あなたのチャージゾーン1つを選び、このカードを裏向きでそのチャージゾーンに置く。この能力はこのカードが手札にあるときにしか使えない。"
+//     },
+//     {
+//       "words": ""
+//     },
+//     { "words": "" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+5000。" },
+//     { "words": "グリューネシルト統合軍所属。そして、かつての“青\"の住人。" },
+//     { "words": "幸せなひとときナツナ・トオナギ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "4000/4ooo" },
+//     { "words": "CKADOKAWA4 samurai2050mustいち" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1750579243228942016
+// }
+{
+  "name": "幸せなひととき",
+  "name_tran": "幸福一刻",
+  "type": "Progress",
+  "level": 2,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "手札からこのカードを公開する：あなたのチャージゾーン1つを選び、このカードを裏向きでそのチャージゾーンに置く。この能力はこのカードが手札にあるときにしか使えない。",
+      "effect_tran": "从手牌将这张卡公开：选择1个你的充能区，将这张卡里侧表示放置到那个充能区。这个能力只有这张卡在手牌存在时才能使用。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ナツナ・トオナギ",
+    "character_tran": "夏菜·远薙",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。 "
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 4000,
+  "def": 4000,
+  "stk": 1,
+  "flavor_text": "グリューネシルト統合軍所属。そして、かつての\"青\"の住人。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-050",
+    "effect_index": "2-050",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "こぶいち",
+    "promo": null
+  }
+}

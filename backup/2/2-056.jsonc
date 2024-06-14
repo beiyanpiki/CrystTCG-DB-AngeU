@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "51" },
+//     { "words": "心のの" },
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、チャージ+1。その後、あなたのチャージゾーンのチャージを自由に動かしてよい。"
+//     },
+//     { "words": "" },
+//     { "words": "LINK" },
+//     { "words": "2" },
+//     { "words": "ATK+8000" },
+//     { "words": "「優秀な軍人になるためには、座学も実技も両方大切なんです！」" },
+//     { "words": "緑の共鳴者マユカ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "900o" },
+//     { "words": "900o" },
+//     { "words": "CKADOKAWA4 samurai2056mst:吉网确" }
+//   ],
+//   "words_result_num": 15,
+//   "log_id": 1750579290610444296
+// }
+{
+  "name": "緑の共鳴者",
+  "name_tran": "绿的共鸣者",
+  "type": "Progress",
+  "level": 5,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、チャージ+1。その後、あなたのチャージゾーンのチャージを自由に動かしてよい。",
+      "effect_tran": "登场时，充能+1。那之后，可以将你的充能区的充能自由移动。"
+    }
+  ],
+  "progress_attr": {
+    "character": "マユカ",
+    "character_tran": "马尤卡",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Any", "Any"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "「優秀な軍人になるためには、座学も実技も両方大切なんです！」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-056",
+    "effect_index": "2-056",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "吉岡榊",
+    "promo": null
+  }
+}

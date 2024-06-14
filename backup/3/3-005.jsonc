@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "アz" },
+//     { "words": "常" },
+//     {
+//       "words": "あなたの【名称（ユノ）】と【名称（シャティー）】のATK+2000/DEF"
+//     },
+//     { "words": "+2000。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000。" },
+//     { "words": "「さあいくわよ！レボ部、全員集合！」" },
+//     { "words": "ARC" },
+//     { "words": "椎名あずさ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7ooo" },
+//     { "words": "7ooo" },
+//     { "words": "CKADOKAWA:f4samurai3005mstB采澄" }
+//   ],
+//   "words_result_num": 15,
+//   "log_id": 1801486970461701079
+// }
+{
+  "name": "ARC",
+  "name_tran": "ARC",
+  "type": "Progress",
+  "level": 3,
+  "color": "Blue",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたの【名称(ユノ)】と【名称(シャティー)】のATK+2000/DEF+2000。",
+      "effect_tran": "你的【名称（尤诺）】和【名称（夏缇）】的ATK+2000/DEF+2000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "椎名あずさ",
+    "character_tran": "椎名梓",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-005",
+    "effect_index": "3-005",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "菜澄桂",
+    "promo": null
+  }
+}

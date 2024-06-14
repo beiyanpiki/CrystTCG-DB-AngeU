@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "自" },
+//     { "words": "センターに登場したとき、チャージ+1" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+4000" },
+//     { "words": "彼女が青蘭島に来た理由。それは、親友の呪いを解くため。" },
+//     { "words": "彼方より紡ぎ重ねる絆" },
+//     { "words": "セナ" },
+//     { "words": "5000/5o0" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "OKADOKAWA-f4samurai3-050must:ササキセウシ" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801487214567443195
+// }
+{
+  "name": "彼方より紡ぎ重ねる絆",
+  "name_tran": "自彼方交错编织的牵绊",
+  "type": "Progress",
+  "level": 2,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "センターに登場したとき、チャージ+1。",
+      "effect_tran": "登场到中枢区时，充能+1。"
+    }
+  ],
+  "progress_attr": {
+    "character": "セナ",
+    "character_tran": "赛娜",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+4000。",
+      "effect_tran": "ATK+4000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-050",
+    "effect_index": "3-050",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

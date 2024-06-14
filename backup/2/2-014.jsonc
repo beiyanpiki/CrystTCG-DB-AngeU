@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "O0円の" },
+//     { "words": "自" },
+//     { "words": "登場したとき、ほかのプログレス1体を選び、ATK+2000とSTK+" },
+//     { "words": "1。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+6000。" },
+//     { "words": "完全無欠の魔女王にも、こんな一日はある。" },
+//     { "words": "r" },
+//     { "words": "魔女王の休日ミルドレッド" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "4000/4ooo" },
+//     { "words": "OKADOKAWA:f4samura20mus红緒" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1750578999012302507
+// }
+{
+  "name": "魔女王の休日",
+  "name_tran": "魔女王的休息日",
+  "type": "Progress",
+  "level": 2,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、ほかのプログレス1体を選び、ATK+2000とSTK+1。",
+      "effect_tran": "登场时，选择1只其他的进化者，其ATK+2000和SKT+1。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ミルドレッド",
+    "character_tran": "米尔特蕾德",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 4000,
+  "def": 4000,
+  "stk": 1,
+  "flavor_text": "完全無欠の魔女王にも、こんな一日はある。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-014",
+    "effect_index": "2-014",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "紅緒",
+    "promo": null
+  }
+}

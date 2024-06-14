@@ -1,0 +1,61 @@
+// {
+//   "words_result": [
+//     { "words": "常" },
+//     { "words": "このプログレスがセンターにいるなら、DEF+1000" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+5000。" },
+//     {
+//       "words": "ステラは高機動型アンドロイドだ。機械仕掛けの翼で、今日も空を駆ける。"
+//     },
+//     { "words": "アクセルスタイル" },
+//     { "words": "ステラ" },
+//     { "words": "6000" },
+//     { "words": "OKADOKAWA-f4samura3038must:つなこ" }
+//   ],
+//   "words_result_num": 9,
+//   "log_id": 1801487152594763667
+// }
+{
+  "name": "アクセルスタイル",
+  "name_tran": "加速形态",
+  "type": "Progress",
+  "level": 2,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "このプログレスがセンターにいるなら、DEF+1000。",
+      "effect_tran": "这个进化者在中枢区存在的话，DEF+1000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ステラ",
+    "character_tran": "斯特拉",
+    "link": {
+      "cost": 3,
+      "condition": ["Sigma", "Any"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 6000,
+  "def": 6000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-038",
+    "effect_index": "3-038",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "つなこ",
+    "promo": null
+  }
+}

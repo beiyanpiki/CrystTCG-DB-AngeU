@@ -1,0 +1,50 @@
+// {
+//   "words_result": [
+//     { "words": "スタートカード（このカードはアタックできない）" },
+//     {
+//       "words": "白の世界の技術は、人間と見紛うばかりのアンドロイドを生み出した。"
+//     },
+//     { "words": "ステラ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "5o00" },
+//     { "words": "OKADOKAWA-f4samurai 3-064" }
+//   ],
+//   "words_result_num": 8,
+//   "log_id": 1801487292166134736
+// }
+{
+  "name": "ステラ",
+  "name_tran": "斯特拉",
+  "type": "Start",
+  "level": 0,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "スタートカード(にのカードはアタックできない)",
+      "effect_tran": "起始卡（这张卡不能攻击）"
+    }
+  ],
+  "progress_attr": null,
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": null,
+  "flavor_text": "",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-064",
+    "effect_index": "3-064",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": null,
+    "promo": null
+  }
+}

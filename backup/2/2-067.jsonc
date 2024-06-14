@@ -1,0 +1,28 @@
+{
+  "name": "sigma",
+  "name_tran": "sigma",
+  "type": "Frame",
+  "level": 0,
+  "color": null,
+  "text": "Sigma",
+  "abilities": [],
+  "progress_attr": null,
+  "action_attr": null,
+  "frame_attr": "Sigma",
+  "atk": null,
+  "def": null,
+  "stk": null,
+  "flavor_text": null,
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "1",
+    "card_index": "sigma",
+    "effect_index": "sigma",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": null,
+    "promo": null
+  }
+}

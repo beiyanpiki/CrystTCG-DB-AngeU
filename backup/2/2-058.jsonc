@@ -1,0 +1,74 @@
+// {
+//   "words_result": [
+//     { "words": "6" },
+//     { "words": "O元の" },
+//     { "words": "起" },
+//     {
+//       "words": "チャージを合計2枚捨てる：対戦相手に1点のダメージを与える。この能力は1ターンに2回までしか起動できない。"
+//     },
+//     { "words": "" },
+//     { "words": "EX" },
+//     { "words": "ミリアルディア" },
+//     { "words": "チャージ+2。" },
+//     { "words": "LINK" },
+//     { "words": "2" },
+//     { "words": "ATK+8000。" },
+//     { "words": "「とっておき、見せてあげる。絶対に逃げられない」" },
+//     { "words": "千刃召喚アインス" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "11o00/1oo0o" },
+//     { "words": "CKADOKAWA:f4samurai 2-058 Illust:bob" }
+//   ],
+//   "words_result_num": 17,
+//   "log_id": 1750579302955343656
+// }
+{
+  "name": "千刃召喚",
+  "name_tran": "千刃召唤",
+  "type": "Progress",
+  "level": 6,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "チャージを合計2枚捨てる: 対戦相手に1点のダメージを与える。この能力は1ターンに2回までしか起動できない。",
+      "effect_tran": "将合计2张充能弃置：给予对手1点伤害。这个能力1回合最多只能起动2次。"
+    }
+  ],
+  "progress_attr": {
+    "character": "アインス",
+    "character_tran": "爱因斯",
+    "link": {
+      "cost": 7,
+      "condition": ["Omega", "Sigma", "Any", "Any"],
+      "effect": "ATK+8000。",
+      "effect_tran": "ATK+8000。"
+    },
+    "ex": {
+      "name": "ミリアルディア",
+      "effect": "チャージ+2。",
+      "name_tran": "无限的一闪",
+      "effect_tran": "充能+2。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 11000,
+  "stk": 1,
+  "flavor_text": "「とっておき、見せてあげる。絶対に逃げられない」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-058",
+    "effect_index": "2-058",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "bob",
+    "promo": null
+  }
+}

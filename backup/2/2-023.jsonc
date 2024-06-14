@@ -1,0 +1,63 @@
+// {
+//   "words_result": [
+//     { "words": "EX" },
+//     { "words": "魔女王の威厳" },
+//     { "words": "ほかのプログレス1体を選び、ATK+2000とSTK" },
+//     { "words": "+1。" },
+//     { "words": "LINK8" },
+//     { "words": "2" },
+//     { "words": "ATK+10000。相手のデッキの上から1枚を" },
+//     { "words": "見る。それをデッキの上か捨札に置く。" },
+//     { "words": "「ふふふ。順調に力をつけているようだな、ソフィーナ」" },
+//     { "words": "永劫の冥黒ミルドレッド" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "12o00/12o0o" },
+//     { "words": "CKADOKAWA4 4samurai2-023u红" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1750579065110973865
+// }
+{
+  "name": "永劫の冥黒",
+  "name_tran": "永劫的冥黑",
+  "type": "Progress",
+  "level": 7,
+  "color": "Black",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "ミルドレッド",
+    "character_tran": "米尔特蕾德",
+    "link": {
+      "cost": 8,
+      "condition": ["Sigma", "Sigma", "Sigma", "Any", "Any"],
+      "effect": "ATK+10000。相手のデッキの上から1枚を見る。それをデッキの上か捨札に置く。",
+      "effect_tran": "ATK+10000。从对手的卡组上方查看1张。将其放置到卡组上方或弃牌区。"
+    },
+    "ex": {
+      "name": "魔女王の威厳",
+      "effect": "ほかのプログレス1体を選び、ATK+2000とSTK+1。",
+      "name_tran": "魔女王的威严",
+      "effect_tran": "选择1只其他的进化者，其ATK+2000和STK+1。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 12000,
+  "def": 12000,
+  "stk": 2,
+  "flavor_text": "「ふふふ。順調に力をつけているようだな、ソフィーナ」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-023",
+    "effect_index": "2-023",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "紅緒",
+    "promo": null
+  }
+}

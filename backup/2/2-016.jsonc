@@ -1,0 +1,54 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "O9円の" },
+//     { "words": "LINK" },
+//     { "words": "ATK+4000。相手はチャージを1枚捨てる。" },
+//     { "words": "「ひえええ……みんなに見られてる気がする……" },
+//     { "words": "夢の城ユノ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000/7ooo" },
+//     { "words": "OKADOKAWA-f4samurc20 13 Musts九g" }
+//   ],
+//   "words_result_num": 10,
+//   "log_id": 1750579013296717456
+// }
+{
+  "name": "夢の城",
+  "name_tran": "梦之城 ",
+  "type": "Progress",
+  "level": 3,
+  "color": "Black",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "ユノ",
+    "character_tran": "尤诺",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+4000。相手はチャージを1枚捨てる。",
+      "effect_tran": "ATK+4000。对手将1张充能弃置。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "「ひえええ……みんなに見られてる気がする……」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-016",
+    "effect_index": "2-016",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "一十九二",
+    "promo": null
+  }
+}

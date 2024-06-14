@@ -1,0 +1,67 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "常" },
+//     {
+//       "words": "あなたがアクションカードをプレイする際、このプログレスを任意の色"
+//     },
+//     { "words": "のプログレスとして扱う。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+5000" },
+//     { "words": "ミシスの祝福によって、豊かな実りが生まれていく。" },
+//     { "words": "収穫へ向けて" },
+//     { "words": "ミシス" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000" },
+//     { "words": "8000" },
+//     { "words": "OKADOKAWA:f4samurai 3-029 Illust:Nardak" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801487103599180715
+// }
+
+{
+  "name": "収穫へ向けて",
+  "name_tran": "丰收指日可待",
+  "type": "Progress",
+  "level": 3,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたがアクションカードをプレイする際、このプログレスを任意の色のプログレスとして扱う。",
+      "effect_tran": "你将行动卡使用之际，这只进化者当作任意颜色的进化者。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ミシス",
+    "character_tran": "蜜西丝",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Any"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 8000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-029",
+    "effect_index": "3-029",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "Nardak",
+    "promo": null
+  }
+}

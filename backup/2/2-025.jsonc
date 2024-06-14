@@ -1,0 +1,55 @@
+// {
+//   "words_result": [
+//     { "words": "LINK3" },
+//     { "words": "1" },
+//     { "words": "ATK+6000" },
+//     {
+//       "words": "「恋をするって素敵なことですわよ。もっとお話聞かせてください」"
+//     },
+//     { "words": "乙女の好奇心フェルノ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000/5000" },
+//     { "words": "CKADOKAWA4 4samurai2025musBはくれ" }
+//   ],
+//   "words_result_num": 9,
+//   "log_id": 1750579076793606408
+// }
+{
+  "name": "乙女の好奇心",
+  "name_tran": "少女的好奇心",
+  "type": "Progress",
+  "level": 1,
+  "color": "Red",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "フェルノ",
+    "character_tran": "菲尔诺",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "「恋をするって素敵なことですわよ。もっとお話聞かせてください」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-025",
+    "effect_index": "2-025",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "憂姫はぐれ",
+    "promo": null
+  }
+}

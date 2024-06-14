@@ -1,0 +1,54 @@
+// {
+//   "words_result": [
+//     { "words": "LINK7" },
+//     { "words": "3" },
+//     { "words": "ATK+7000。" },
+//     { "words": "「じゃじゃーん！なんだか楽しいことになりそうですね！」" },
+//     { "words": "とってもラッキーガール" },
+//     { "words": "イリア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "1o000/10000" },
+//     { "words": "CKADOKAWAf4 samurai3-032mustササギコウシ" }
+//   ],
+//   "words_result_num": 10,
+//   "log_id": 1801487121280409406
+// }
+{
+  "name": "とってもラッキーガール",
+  "name_tran": "非常幸运的女孩",
+  "type": "Progress",
+  "level": 5,
+  "color": "Red",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "イリア",
+    "character_tran": "伊莉雅",
+    "link": {
+      "cost": 7,
+      "condition": ["Any", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-032",
+    "effect_index": "3-032",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

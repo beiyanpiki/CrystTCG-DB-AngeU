@@ -1,0 +1,73 @@
+// {
+//   "words_result": [
+//     { "words": "4" },
+//     { "words": "セOのの" },
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、あなたのチャージゾーン1つを選び、手札を1枚裏向きで置いてもよい。そうした場合、そのチャージゾーンのチャージ1枚を手札に加えてもよい。"
+//     },
+//     {
+//       "words": ""
+//     },
+//     { "words": "" },
+//     { "words": "LINK5" },
+//     { "words": "Q" },
+//     { "words": "1" },
+//     { "words": "ATK+7000" },
+//     { "words": "精神と記憶の操作。彼女の手に宿る恐ろしき力。" },
+//     { "words": "标t" },
+//     { "words": "冷徹な将校" },
+//     { "words": "スレイ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "9ooo" },
+//     { "words": "1" },
+//     { "words": "OKADOKAWA-4 samurai2-054Iust:鍋島テツヒロ" }
+//   ],
+//   "words_result_num": 19,
+//   "log_id": 1750579277650346195
+// }
+{
+  "name": "冷徹な将校",
+  "name_tran": "冷静的将校",
+  "type": "Progress",
+  "level": 4,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたのチャージゾーン1つを選び、手札を1枚裏向きで置いてもよい。そうした場合、そのチャージゾーンのチャージ1枚を手札に加えてもよい。",
+      "effect_tran": "登场时，选择1个你的充能区，可以将1张手牌里侧表示放置。那个场合，可以将1张那个充能区的充能加入手牌。"
+    }
+  ],
+  "progress_attr": {
+    "character": "スレイ",
+    "character_tran": "斯雷伊",
+    "link": {
+      "cost": 5,
+      "condition": ["Omega", "Omega", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "精神と記憶の操作。彼女の手に宿る恐ろしき力。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-054",
+    "effect_index": "2-054",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "鍋島テツヒロ",
+    "promo": null
+  }
+}

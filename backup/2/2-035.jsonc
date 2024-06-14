@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "る3" },
+//     { "words": "EX" },
+//     { "words": "檻ノ糸" },
+//     { "words": "プログレス1体を選ぶ。それはこのターン、ガードの際にチャージを捨てることができない。" },
+//     { "words": "" },
+//     { "words": "LINK8" },
+//     { "words": "2" },
+//     { "words": "ATK+11000。プログレス1体を選ぶ。それはこのターン、ガードの際にチャージを捨てることができない。" },
+//     { "words": "" },
+//     { "words": "「私は人の縁を司る女神。君との出会いも素敵な縁だよ」" },
+//     { "words": "縁の女神ヒメガミノミコト" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "110007110002" },
+//     { "words": "CKADOKAWA-f4 samurai2035lstマシマサキ" }
+//   ],
+//   "words_result_num": 15,
+//   "log_id": 1750579146606604043
+// }
+{
+  "name": "縁の女神",
+  "name_tran": "缘之女神",
+  "type": "Progress",
+  "level": 7,
+  "color": "Red",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "ヒメガミノミコト",
+    "character_tran": "姬神御命",
+    "link": {
+      "cost": 8,
+      "condition": ["Omega", "Omega", "Omega", "Any", "Any"],
+      "effect": "ATK+11000。プログレス1体を選ぶ。それはこのターン、ガードの際にチャージを捨てることができない。",
+      "effect_tran": "ATK+11000。选择1只进化者。其这个回合，防御之际不能将充能弃置。"
+    },
+    "ex": {
+      "name": "檻ノ糸",
+      "effect": "プログレス1体を選ぶ。それはこのターン、ガードの際にチャージを捨てることができない。",
+      "name_tran": "牢笼之线",
+      "effect_tran": "选择1只进化者。其这个回合，防御之际不能将充能弃置。"
+    }
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 10000,
+  "stk": 2,
+  "flavor_text": "「私は人の縁を司る女神。君との出会いも素敵な縁だよ」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-035",
+    "effect_index": "2-035",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "マシマサキ",
+    "promo": null
+  }
+}

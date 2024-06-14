@@ -1,0 +1,52 @@
+// {
+//   "words_result": [
+//     { "words": "0" },
+//     { "words": "0" },
+//     { "words": "中" },
+//     { "words": "常" },
+//     { "words": "スタートカード（このカードはアタックできない" },
+//     { "words": "システム=ホワイトーエグマ。それは科学と電脳の世界。" },
+//     { "words": "セニア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "5000" },
+//     { "words": "OKADOKAWA-f4samurai 2-064" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750579343758979243
+// }
+{
+  "name": "セニア",
+  "name_tran": "赛妮娅",
+  "type": "Start",
+  "level": 0,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "スタートカード(にのカードはアタックできない)",
+      "effect_tran": "起始卡（这张卡不能攻击）"
+    }
+  ],
+  "progress_attr": null,
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": null,
+  "flavor_text": "システム=ホワイトーエグマ。それは科学と電脳の世界。",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-064",
+    "effect_index": "2-064",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": null,
+    "promo": null
+  }
+}

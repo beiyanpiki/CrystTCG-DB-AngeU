@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "自" },
+//     {
+//       "words": "アタックしたとき、相手のプログレス1体を選ぶ。このターン、それは可"
+//     },
+//     { "words": "能な限りこのプログレスをガードしなければならない。" },
+//     { "words": "LINK5" },
+//     { "words": "ATK+7000" },
+//     { "words": "「騎士の誇りにかけて、キミを護ると誓おう！」" },
+//     { "words": "天使の剣舞" },
+//     { "words": "クラリス" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7ooo" },
+//     { "words": "CKADOKAWA4 samurai3030mustササセウ" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801487110217782689
+// }
+{
+  "name": "天使の剣舞",
+  "name_tran": "クラリス",
+  "type": "Progress",
+  "level": 4,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "アタックしたとき、相手のプログレス1体を選ぶ。このターン、それは可能な限りこのプログレスをガードしなければならない。",
+      "effect_tran": "攻击时，选择1只对手的进化者。这个回合，其尽可能必须将这只进化者防御。"
+    }
+  ],
+  "progress_attr": {
+    "character": "クラリス",
+    "character_tran": "克拉丽斯",
+    "link": {
+      "cost": 5,
+      "condition": ["Sigma", "Sigma", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-030",
+    "effect_index": "3-030",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

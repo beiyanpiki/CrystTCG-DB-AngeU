@@ -1,0 +1,68 @@
+// {
+//   "words_result": [
+//     { "words": "21" },
+//     { "words": "O00円の" },
+//     { "words": "起" },
+//     {
+//       "words": "手札からこのカードを捨てる：捨札のレベル7以上の赤のプログレス"
+//     },
+//     {
+//       "words": "カード1枚を選び、手札に加える。この能力はこのカードが手札にあるとき"
+//     },
+//     { "words": "にしか使えない。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+5000。" },
+//     { "words": "七女神にして青蘭学園生徒会長。彼女の日常は多忙を極める。" },
+//     { "words": "生徒会長ヒメガミノミコト" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "4000/4ooo" },
+//     { "words": "CKADOKAWA4 samurai2-026must:マシマサキ" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1750579083911888927
+// }
+{
+  "name": "生徒会長",
+  "name_tran": "学生会长",
+  "type": "Progress",
+  "level": 2,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "手札からこのカードを捨てる: 捨札のレベル7以上の赤のプログレスカード1枚を選び、手札に加える。この能力はこのカードが手札にあるときにしか使えない。",
+      "effect_tran": "从手牌将这张卡弃置：选择1张弃牌区的等级7以上的红色的进化者卡，将其加入手牌。这个能力只有这张卡在手牌存在时才能使用。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ヒメガミノミコト",
+    "character_tran": "姬神御命",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+5000。",
+      "effect_tran": "ATK+5000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 4000,
+  "def": 4000,
+  "stk": 1,
+  "flavor_text": "七女神にして青蘭学園生徒会長。彼女の日常は多忙を極める。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-026",
+    "effect_index": "2-026",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "マシマサキ",
+    "promo": null
+  }
+}

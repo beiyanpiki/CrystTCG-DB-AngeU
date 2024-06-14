@@ -1,0 +1,68 @@
+// {
+//   "words_result": [
+//     { "words": "PRO" },
+//     { "words": "自" },
+//     {
+//       "words": "奇跡一あなたは1点のダメージを受ける（リンクが失敗したとき、コス"
+//     },
+//     { "words": "トを払ってもよい。そうした場合、リンクブーストを1回行う)。" },
+//     { "words": "LINK6" },
+//     { "words": "ATK+7000。あなたの受けているダメージが3" },
+//     { "words": "点以上の場合、相手はチャージを1枚捨てる。" },
+//     {
+//       "words": "「テオはお菓子が大好きなのだ。風紀委員室にもたくさんあるのだ！」"
+//     },
+//     { "words": "スウィーツ・タイム" },
+//     { "words": "テオドーチェ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "looo0/100001" },
+//     { "words": "CKADOKAWA:f4samurai3020mustササキウシ" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801487055321333149
+// }
+{
+  "name": "スウィーツ・タイム",
+  "name_tran": "甜蜜时光",
+  "type": "Progress",
+  "level": 5,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "[奇跡] - あなたは1点のダメージを受ける",
+      "effect_tran": "[奇跡] - 你受到1点伤害。"
+    }
+  ],
+  "progress_attr": {
+    "character": "テオドーチェ",
+    "character_tran": "缇奥朵切",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Sigma", "Any"],
+      "effect": "ATK+7000。あなたの受けているダメージが3点以上の場合、相手はチャージを1枚捨てる。",
+      "effect_tran": "ATK+7000。你的已受伤害是3点以上的场合，对手将1张充能弃置。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 10000,
+  "def": 10000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-021",
+    "effect_index": "3-021",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

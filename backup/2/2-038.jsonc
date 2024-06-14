@@ -1,0 +1,65 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、手札を1枚捨ててもよい。そうした場合、白のレベルが偶数のプログレスカード1枚をサーチし、手札に加える。"
+//     },
+//     { "words": "偶数のプログレスカード1枚をサーチし、手札に加える。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+4000。" },
+//     { "words": "辿り着くべき未来のため。彼女は何度でも、時を翔ける。" },
+//     { "words": "時をかけるユーフィリア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "6ooo" },
+//     { "words": "CKADOKAW4 samurai2038must:ササギコウシ" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1750579163755894146
+// }
+{
+  "name": "時をかける",
+  "name_tran": "穿越时空",
+  "type": "Progress",
+  "level": 2,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、手札を1枚捨ててもよい。そうした場合、白のレベルが偶数のプログレスカード1枚をサーチし、手札に加える。",
+      "effect_tran": "登场时，可以将1张手牌弃置。那个场合，将1张白色的等级为偶数的进化者卡检索，将其加入手牌。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ユーフィリア",
+    "character_tran": "尤菲莉娅",
+    "link": {
+      "cost": 3,
+      "condition": ["Sigma", "Any"],
+      "effect": "ATK+4000。",
+      "effect_tran": "ATK+4000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 6000,
+  "stk": 1,
+  "flavor_text": "辿り着くべき未来のため。彼女は何度でも、時を翔ける。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-038",
+    "effect_index": "2-038",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

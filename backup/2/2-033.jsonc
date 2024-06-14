@@ -1,0 +1,63 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "O" },
+//     { "words": "常" },
+//     { "words": "あなたの黒か白のプログレスがいる場合、ATK+2000/DEF+2000(スタートカードは含まない)。" },
+//     { "words": "" },
+//     { "words": "LINK7" },
+//     { "words": "ATK+7000。" },
+//     { "words": "「私はもう一人じゃない。この力は、誰かを守るためのもの」" },
+//     { "words": "絆の片翼レミエル" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "8000" },
+//     { "words": "CKADOKAWA-f4samura203must塚エ" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1750579133670398366
+// }
+{
+  "name": "絆の片翼",
+  "name_tran": "羁绊的单翼",
+  "type": "Progress",
+  "level": 5,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "あなたの黒か白のプログレスがいる場合、ATK+2000/DEF+2000(スタートカードは含まない)。",
+      "effect_tran": "你的黑色或者白色的进化者存在的场合，ATK+2000/DEF+2000（不包含起始卡）。"
+    }
+  ],
+  "progress_attr": {
+    "character": "レミエル",
+    "character_tran": "蕾米艾儿",
+    "link": {
+      "cost": 7,
+      "condition": ["Sigma", "Sigma", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "「私はもう一人じゃない。この力は、誰かを守るためのもの」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-033",
+    "effect_index": "2-033",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "兎塚工イジ",
+    "promo": null
+  }
+}

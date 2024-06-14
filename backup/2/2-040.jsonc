@@ -1,0 +1,57 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "1Cの" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000。フレームカードを1枚サーチし、手札に加えてもよい。" },
+//     { "words": "" },
+//     {
+//       "words": "「アンドロイドの感情は、作られたものかもしれません。それでも…"
+//     },
+//     { "words": "貴き白アクエリア" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "7o008000" },
+//     { "words": "OKADOKAWAf4 samura2-040mustササキコウシ" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1750579176785229864
+// }
+{
+  "name": "貴き白",
+  "name_tran": "尊高之白",
+  "type": "Progress",
+  "level": 3,
+  "color": "White",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "アクエリア",
+    "character_tran": "艾露赛娅",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Omega"],
+      "effect": "ATK+6000。フレームカードを1枚サーチし、手札に加えてもよい。",
+      "effect_tran": "ATK+6000。将1张边界卡检索，可以将其加入手牌。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "「アンドロイドの感情は、作られたものかもしれません。それでも……」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-040",
+    "effect_index": "2-040",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

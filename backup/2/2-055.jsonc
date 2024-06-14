@@ -1,0 +1,62 @@
+// {
+//   "words_result": [
+//     { "words": "4" },
+//     { "words": "このプログレスのチャージ1枚につき、ATK+1000" },
+//     { "words": "LINK5" },
+//     { "words": "2" },
+//     { "words": "ATK+7000" },
+//     { "words": "生徒会の一員。そして情報処理のエキスパート。" },
+//     { "words": "生徒会会計ナクル" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "9o00_/8000" },
+//     { "words": "1" },
+//     { "words": "OKADOKAWA:f4samurai2-055stちょこ庵" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1750579283630457860
+// }
+{
+  "name": "生徒会会計",
+  "name_tran": "学生会会计",
+  "type": "Progress",
+  "level": 4,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Persistent",
+      "effect": "このプログレスのチャージ1枚につき、ATK+1000。",
+      "effect_tran": "这个进化者的充能每有1张，ATK+1000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ナクル",
+    "character_tran": "鸣久留",
+    "link": {
+      "cost": 5,
+      "condition": ["Omega", "Any", "Any"],
+      "effect": "ATK+7000。",
+      "effect_tran": "ATK+7000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 9000,
+  "def": 8000,
+  "stk": 1,
+  "flavor_text": "生徒会の一員。そして情報処理のエキスパート。",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-055",
+    "effect_index": "2-055",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ちょこ庵",
+    "promo": null
+  }
+}

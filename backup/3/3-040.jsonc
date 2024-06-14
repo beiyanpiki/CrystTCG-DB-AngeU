@@ -1,0 +1,69 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "S急" },
+//     { "words": "さNミ" },
+//     { "words": "自" },
+//     {
+//       "words": "登場したとき、正面にいるプログレスが「登場したとき」を含む自動型"
+//     },
+//     { "words": "能力を持つ場合、それを使用する。" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000" },
+//     { "words": "プログラムを書き変えるだけで、彼女は如何様にも姿を変える。" },
+//     { "words": "ミE" },
+//     { "words": "変幻自在" },
+//     { "words": "ヴェノム666" },
+//     { "words": "DEF" },
+//     { "words": "7o0o" },
+//     { "words": "7ooo" },
+//     { "words": "3" },
+//     { "words": "OKADOKAWA:f4samurai3040mustサワアキラ" }
+//   ],
+//   "words_result_num": 17,
+//   "log_id": 1801487162012159813
+// }
+{
+  "name": "変幻自在",
+  "name_tran": "变幻自在",
+  "type": "Progress",
+  "level": 3,
+  "color": "White",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、正面にいるプログレスが「登場したとき」を含む自動型能力を持つ場合、それを使用する。",
+      "effect_tran": "登场时，正面存在的进化者持有含有「登场时」的自动型能力的场合，将其使用。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ヴェノム666",
+    "character_tran": "贝诺姆666",
+    "link": {
+      "cost": 4,
+      "condition": ["Omega", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-040",
+    "effect_index": "3-040",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "サワノアキラ",
+    "promo": null
+  }
+}

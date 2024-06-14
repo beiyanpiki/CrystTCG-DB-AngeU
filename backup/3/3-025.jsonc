@@ -1,0 +1,65 @@
+// {
+//   "words_result": [
+//     { "words": "起" },
+//     {
+//       "words": "このプログレスをフォールする：プログレス1体を選び、リンク+2。"
+//     },
+//     { "words": "LINK3" },
+//     { "words": "ATK+6000" },
+//     { "words": "「男の人は信用できない。でも、あなたはちょっと違うかも」" },
+//     { "words": "優美なる翼" },
+//     { "words": "シャティー" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "500o" },
+//     { "words": "OKADOKAWA:f4samurai025 3IMlustsにやん" }
+//   ],
+//   "words_result_num": 12,
+//   "log_id": 1801487078273803919
+// }
+
+{
+  "name": "優美なる翼",
+  "name_tran": "优雅的翅膀",
+  "type": "Progress",
+  "level": 1,
+  "color": "Red",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "このプログレスをフォールする:プログレス1体を選び、リンク+2。",
+      "effect_tran": "将这个进化者沉睡：选择1只进化者，其链接+2。"
+    }
+  ],
+  "progress_attr": {
+    "character": "シャティー",
+    "character_tran": "夏缇",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-025",
+    "effect_index": "3-025",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ぶにゃん",
+    "promo": null
+  }
+}

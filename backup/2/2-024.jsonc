@@ -1,0 +1,50 @@
+// {
+//   "words_result": [
+//     { "words": "0" },
+//     { "words": "ACtION" },
+//     { "words": "条件" },
+//     { "words": "異なる色のプログスミ体（スタートカードは含まない。" },
+//     {
+//       "words": "相手はチャージをI枚捨て手札をい枚捨てる。チャージソーレつを選び"
+//     },
+//     { "words": "チャージ+1" },
+//     { "words": "漆黒の闇に放たれた、血塗られし魔槍。" },
+//     { "words": "血塗られし刃の光" },
+//     { "words": "OKADOKAWA-f4samurai 2-024 Illust:vanilla" }
+//   ],
+//   "words_result_num": 9,
+//   "log_id": 1750579070472671829
+// }
+{
+  "name": "血塗られし刃の光",
+  "name_tran": "沐浴鲜血之刃的光",
+  "type": "Action",
+  "level": 0,
+  "color": "Black",
+  "text": "",
+  "abilities": [],
+  "progress_attr": null,
+  "action_attr": {
+    "condition": "異なる色のプログレス3体(スタートカードは含まない)。",
+    "effect": "相手はチャージを1枚捨て、手札を1枚捨てる。",
+    "condition_tran": "不同颜色的进化者3只（不包含起始卡）。チャージゾーン1つを選び、チャージ+1。",
+    "effect_tran": "对手将1张充能弃置，将1张手牌弃置。选择1个充能区，充能+1。"
+  },
+  "frame_attr": null,
+  "atk": null,
+  "def": null,
+  "stk": null,
+  "flavor_text": "漆黒の闇に放たれた、血塗られし魔槍。",
+  "flavor_text_tran": "",
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-024",
+    "effect_index": "2-024",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "vanilla",
+    "promo": null
+  }
+}

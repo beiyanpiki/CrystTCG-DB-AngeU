@@ -1,0 +1,57 @@
+// {
+//   "words_result": [
+//     { "words": "5" },
+//     { "words": "LNK6UATK+8000。あなたの捨札にある黒のプログ" },
+//     {
+//       "words": "レスカード1枚を選び、ダメージゾーンに置いてもよい。そうした場合、ダ"
+//     },
+//     { "words": "メージゾーンにあるプログレスカード1枚を手札に加える。" },
+//     { "words": "幻影を操る彼女は、黒の世界のファッションリーダー。" },
+//     { "words": "煌めきの幻影" },
+//     { "words": "ロザリー" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "11o00/9ooo" },
+//     { "words": "CKADOKAWA4 Isamurai3-022llst:しsび" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1801487063302385472
+// }
+{
+  "name": "煌めきの幻影",
+  "name_tran": "辉煌的幻影",
+  "type": "Progress",
+  "level": 5,
+  "color": "Black",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "ロザリー",
+    "character_tran": "罗莎莉",
+    "link": {
+      "cost": 6,
+      "condition": ["Omega", "Omega", "Any"],
+      "effect": "ATK+8000。あなたの捨札にある黒のプログレスカード1枚を選び、ダメージゾーンに置いてもよい。そうした場合、ダメージゾーンにあるプログレスカード1枚を手札に加える。",
+      "effect_tran": "ATK+8000。选择1张你的弃牌区存在的黑色的进化者卡，可以将其放置到伤害区。那个场合，将1站伤害区的进化者卡加入手牌。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 11000,
+  "def": 9000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-022",
+    "effect_index": "3-022",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "しらび",
+    "promo": null
+  }
+}

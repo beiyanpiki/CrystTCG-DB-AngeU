@@ -1,0 +1,55 @@
+// {
+//   "words_result": [
+//     { "words": "21" },
+//     { "words": "Oの" },
+//     { "words": "LINK" },
+//     { "words": "3" },
+//     { "words": "ATK+4000.1枚引く。" },
+//     { "words": "「これからもよろしく！」" },
+//     { "words": "未来へ向かって東条遥" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000/6ooo" },
+//     { "words": "CKADOKAWA:f4samurai2002mustササキウシ" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1750578924389268558
+// }
+{
+  "name": "未来へ向かって",
+  "name_tran": "面向未来",
+  "type": "Progress",
+  "level": 2,
+  "color": "Blue",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "東条遥",
+    "character_tran": "东条遥",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+4000。1枚引く。",
+      "effect_tran": "ATK+4000。抽取1张。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 6000,
+  "stk": 1,
+  "flavor_text": "「これからもよろしく！」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-002",
+    "effect_index": "2-002",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "ササギコウシ",
+    "promo": null
+  }
+}

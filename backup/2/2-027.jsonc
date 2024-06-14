@@ -1,0 +1,55 @@
+// {
+//   "words_result": [
+//     { "words": "2" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+3000。捨札のプログレスカード1枚を選び、" },
+//     { "words": "手札に加えてもよい。" },
+//     { "words": "「泳いだあとは、美味しいケーキとお茶でパーティしよ？」" },
+//     { "words": "水着の女神" },
+//     { "words": "ミシス" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "6000/5000" },
+//     { "words": "CKADOKAWA-f4samurai 2-027 Illust:Nardak" }
+//   ],
+//   "words_result_num": 11,
+//   "log_id": 1750579094813795900
+// }
+{
+  "name": "水着の女神",
+  "name_tran": "泳装的女神",
+  "type": "Progress",
+  "level": 2,
+  "color": "Red",
+  "text": "",
+  "abilities": [],
+  "progress_attr": {
+    "character": "ミシス",
+    "character_tran": "蜜西丝",
+    "link": {
+      "cost": 3,
+      "condition": ["Omega", "Sigma"],
+      "effect": "ATK+3000。捨札のプログレスカード1枚を選び、手札に加えてもよい。",
+      "effect_tran": "ATK+3000。选择1张弃牌区的进化者卡，可以将其加入手牌。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 6000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "「泳いだあとは、美味しいケーキとお茶でパーティしよ？」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-027",
+    "effect_index": "2-027",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "Nardak",
+    "promo": null
+  }
+}

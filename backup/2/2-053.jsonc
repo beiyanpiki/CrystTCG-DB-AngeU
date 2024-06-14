@@ -1,0 +1,65 @@
+// {
+//   "words_result": [
+//     { "words": "3" },
+//     { "words": "PROGRES" },
+//     { "words": "自" },
+//     {
+//       "words": ""
+//     },
+//     { "words": "" },
+//     { "words": "LINK4" },
+//     { "words": "ATK+6000。" },
+//     { "words": "「きっと大丈夫。深雪といっしょなら」" },
+//     { "words": "回帰した日常ナツナ・トオナギ" },
+//     { "words": "7o007000" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "CKADOKAWA:f4samurc2053ulst:こぶいち" }
+//   ],
+//   "words_result_num": 13,
+//   "log_id": 1750579270985060415
+// }
+{
+  "name": "回帰した日常",
+  "name_tran": "回归后的日常",
+  "type": "Progress",
+  "level": 3,
+  "color": "Green",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Automatic",
+      "effect": "登場したとき、あなたのデッキの一番上を公開する。それがプログレスカードなら手札に加え、プログレスカードでなければ捨札に置く。",
+      "effect_tran": "登场时，将你的卡组的最上方公开。那是进化者卡的话加入手牌，不是进化者卡的话放置到弃牌区。"
+    }
+  ],
+  "progress_attr": {
+    "character": "ナツナ・トオナギ",
+    "character_tran": "夏菜·远薙",
+    "link": {
+      "cost": 4,
+      "condition": ["Sigma", "Any"],
+      "effect": "ATK+6000。",
+      "effect_tran": "ATK+6000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 7000,
+  "def": 7000,
+  "stk": 1,
+  "flavor_text": "「きっと大丈夫。深雪といっしょなら」",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "2",
+    "card_index": "2-053",
+    "effect_index": "2-053",
+    "product_id": "siderb",
+    "product_name": "siderb",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "こぶいち",
+    "promo": null
+  }
+}

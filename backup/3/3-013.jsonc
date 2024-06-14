@@ -1,0 +1,64 @@
+// {
+//   "words_result": [
+//     { "words": "・O0円の" },
+//     { "words": "起" },
+//     { "words": "このプログレスをフォールする：プログレス1体を選び、ATK+" },
+//     { "words": "5000。" },
+//     { "words": "LINK3" },
+//     { "words": "ATK+4000。" },
+//     { "words": "イタズラは彼女なりの愛情表現。" },
+//     { "words": "蠱惑の悪魔" },
+//     { "words": "リゼリッタ" },
+//     { "words": "ATK" },
+//     { "words": "DEF" },
+//     { "words": "5000" },
+//     { "words": "500o" },
+//     { "words": "OKADOKAWA-f4samurai 3-013 Illust:W18" }
+//   ],
+//   "words_result_num": 14,
+//   "log_id": 1801487012691340059
+// }
+{
+  "name": "蠱惑の悪魔",
+  "name_tran": "虫惑的恶魔",
+  "type": "Progress",
+  "level": 1,
+  "color": "Black",
+  "text": "",
+  "abilities": [
+    {
+      "type": "Activated",
+      "effect": "このプログレスをフォールする:プログレス1体を選び、ATK+5000。",
+      "effect_tran": "将这个进化者沉睡：选择1只进化者，其ATK+5000。"
+    }
+  ],
+  "progress_attr": {
+    "character": "リゼリッタ",
+    "character_tran": "莉泽丽塔",
+    "link": {
+      "cost": 3,
+      "condition": ["Sigma", "Any"],
+      "effect": "ATK+4000。",
+      "effect_tran": "ATK+4000。"
+    },
+    "ex": null
+  },
+  "action_attr": null,
+  "frame_attr": null,
+  "atk": 5000,
+  "def": 5000,
+  "stk": 1,
+  "flavor_text": "",
+  "flavor_text_tran": null,
+  "collection_attr": {
+    "series_id": "3",
+    "card_index": "3-013",
+    "effect_index": "3-013",
+    "product_id": "sidelt",
+    "product_name": "sidelt",
+    "foil": false,
+    "alternate_art": false,
+    "artist": "W18",
+    "promo": null
+  }
+}
